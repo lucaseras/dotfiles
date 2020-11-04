@@ -1,0 +1,1223 @@
+{
+  "coc-python|global": {
+    "INTERPRETERS_CACHE_v3_CondaEnvFileService": [],
+    "INTERPRETERS_CACHE_v3_CondaEnvService": [],
+    "INTERPRETERS_CACHE_v3_VirtualEnvService": [],
+    "/usr/local/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8",
+        "fileHash": "e88cad08b96de17d3106a17b7150310d4863edfb4da692771780bac0133bdd891c395f2b654733f4bb4025e5d0b29b494909fac003b3387b5a62ae0b207c64e5"
+      },
+      "expiry": 1603236862314
+    },
+    "/usr/bin/python2.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "c08e68b32a609a8ecf81f4ddbc11c3636c64c089aaa09959017e704a8e420bad018e1dd2cd6051ae8c17e7be066994b3d53a9f8edc9468d1c0cfeca9f558d385"
+      },
+      "expiry": 1603236862316
+    },
+    "/usr/bin/python2.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "ba9a347f30d58f143e5177dd25ed2cf6fa097894e79826060620d33f5492b0b3937e92540c2adf49ae0e543b289d25375489fb0f63bd6540eb4fe2b7ac30dcbf"
+      },
+      "expiry": 1603236862287
+    },
+    "/usr/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "bb498bbf7a85f496c6a60e6214f4eb8604de1e266f694a5207be88fc976afb0a041aa4060551d73d55c63295e1d6e96e190fa7870edc5718ab8f9ffec91b4bfe"
+      },
+      "expiry": 1603236862288
+    },
+    "/usr/local/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8",
+        "fileHash": "45376e0b9693e45436fe026b52a22744a1ea276325ef5b738ed33c56ceaf4d6d7f0e303252139034c5b67ee0f416436e3ee54847246dce1d1881ff5e3592757a"
+      },
+      "expiry": 1603236862317
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "17e6911ac885cc4468919eaf12d80c35e8c3e58f7576e87fdd00e3a478e132f2747297142923f32950a5ec8f006bb277d7d0eff1fbbc26fd80bffb94ce78a6fe"
+      },
+      "expiry": 1603236862336
+    },
+    "/usr/local/opt/python@3.8/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/opt/python@3.8/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8",
+        "fileHash": "9c18ecf1d09c7356fb8d9fa7291b0a2e66c9b37cf0b7eb889ca0d9daa0d1a52329c354bcab79887284a1efc306635c4613dc938237d3ea4747c6af4d40a4d185"
+      },
+      "expiry": 1603049466617
+    },
+    "INTERPRETERS_CACHE_v3_CurrentPathService": [
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/333-se-django-react-api/333-api/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/333-se-django-react-api/333-api",
+        "fileHash": "307ed7b79caa03033d10aabeb3a7248fec4f8a693708544cc39ddc1b2782fa4858623fc9fc7dd410f517e461b86198701891f988675890a3f374ba128d7f83c3",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "17e6911ac885cc4468919eaf12d80c35e8c3e58f7576e87fdd00e3a478e132f2747297142923f32950a5ec8f006bb277d7d0eff1fbbc26fd80bffb94ce78a6fe",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/333-se-django-react-api/333-api/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/333-se-django-react-api/333-api",
+        "fileHash": "e08b149a8b9076fbc7e15527468a363105e7bb18ba10385d280dec529d6f382fb3974884fdc02d1db949669bca0f568741008e6b535495b3e3a7489715b930af",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/333-se-django-react-api/333-api/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/333-se-django-react-api/333-api",
+        "fileHash": "307ed7b79caa03033d10aabeb3a7248fec4f8a693708544cc39ddc1b2782fa4858623fc9fc7dd410f517e461b86198701891f988675890a3f374ba128d7f83c3",
+        "type": "Unknown"
+      }
+    ],
+    "InterpreterAutoSeletionRule-currentPath": {
+      "architecture": 3,
+      "path": "/Users/lucaseras/Developer/333-se-django-react-api/333-api/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.6-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 6,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.6-final"
+      },
+      "sysPrefix": "/Users/lucaseras/Developer/333-se-django-react-api/333-api",
+      "fileHash": "307ed7b79caa03033d10aabeb3a7248fec4f8a693708544cc39ddc1b2782fa4858623fc9fc7dd410f517e461b86198701891f988675890a3f374ba128d7f83c3",
+      "type": "Unknown"
+    },
+    "preferredGlobalPyInterpreter": {
+      "architecture": 3,
+      "path": "/usr/local/opt/python@3.8/bin/python3.8",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8",
+      "fileHash": "7db0d3ea58d077723b70666b6464361dc1e1b9bbff6fbb136291cf302591b60bf1b69ed5c7e37904e62c0c1fa77a836b2c6b5f774e50e1805f68c71138827e19",
+      "type": "Unknown"
+    },
+    "/usr/local/opt/python@3.8/bin/python3.8.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "9c18ecf1d09c7356fb8d9fa7291b0a2e66c9b37cf0b7eb889ca0d9daa0d1a52329c354bcab79887284a1efc306635c4613dc938237d3ea4747c6af4d40a4d185",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/local/opt/python@3.8/bin/python3.8",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.5-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 5,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.5-final"
+          },
+          "sysPrefix": "/usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8",
+          "fileHash": "7db0d3ea58d077723b70666b6464361dc1e1b9bbff6fbb136291cf302591b60bf1b69ed5c7e37904e62c0c1fa77a836b2c6b5f774e50e1805f68c71138827e19",
+          "type": "Unknown",
+          "cachedEntry": true,
+          "displayName": "Python 3.8.5 64-bit",
+          "__store": true
+        }
+      },
+      "expiry": 1603049466590
+    },
+    "/usr/local/opt/python@3.8/bin/python3.8.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.6 64-bit",
+        "hash": "9c18ecf1d09c7356fb8d9fa7291b0a2e66c9b37cf0b7eb889ca0d9daa0d1a52329c354bcab79887284a1efc306635c4613dc938237d3ea4747c6af4d40a4d185-a8cee2832ee3a3ba11bbb16769d88e7f"
+      },
+      "expiry": 1603049466622
+    },
+    "/usr/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "2a3194f3846b275a4adb2d6bb7f839e04c016a96d78e60a723e24b28a23138ad41aa82b9e6364eeedcd19fbc4f7a4f3946f970f46a5687c543a8c26676be6229"
+      },
+      "expiry": 1603236862565
+    },
+    "INTERPRETERS_CACHE_v3_KnownPathsService": [
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/333-se-django-react-api/333-api/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/333-se-django-react-api/333-api",
+        "fileHash": "e08b149a8b9076fbc7e15527468a363105e7bb18ba10385d280dec529d6f382fb3974884fdc02d1db949669bca0f568741008e6b535495b3e3a7489715b930af",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/333-se-django-react-api/333-api/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/333-se-django-react-api/333-api",
+        "fileHash": "307ed7b79caa03033d10aabeb3a7248fec4f8a693708544cc39ddc1b2782fa4858623fc9fc7dd410f517e461b86198701891f988675890a3f374ba128d7f83c3",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8",
+        "fileHash": "e88cad08b96de17d3106a17b7150310d4863edfb4da692771780bac0133bdd891c395f2b654733f4bb4025e5d0b29b494909fac003b3387b5a62ae0b207c64e5",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8",
+        "fileHash": "45376e0b9693e45436fe026b52a22744a1ea276325ef5b738ed33c56ceaf4d6d7f0e303252139034c5b67ee0f416436e3ee54847246dce1d1881ff5e3592757a",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "bb498bbf7a85f496c6a60e6214f4eb8604de1e266f694a5207be88fc976afb0a041aa4060551d73d55c63295e1d6e96e190fa7870edc5718ab8f9ffec91b4bfe",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "ba9a347f30d58f143e5177dd25ed2cf6fa097894e79826060620d33f5492b0b3937e92540c2adf49ae0e543b289d25375489fb0f63bd6540eb4fe2b7ac30dcbf",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "c08e68b32a609a8ecf81f4ddbc11c3636c64c089aaa09959017e704a8e420bad018e1dd2cd6051ae8c17e7be066994b3d53a9f8edc9468d1c0cfeca9f558d385",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "2a3194f3846b275a4adb2d6bb7f839e04c016a96d78e60a723e24b28a23138ad41aa82b9e6364eeedcd19fbc4f7a4f3946f970f46a5687c543a8c26676be6229",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8",
+        "fileHash": "e88cad08b96de17d3106a17b7150310d4863edfb4da692771780bac0133bdd891c395f2b654733f4bb4025e5d0b29b494909fac003b3387b5a62ae0b207c64e5",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8",
+        "fileHash": "45376e0b9693e45436fe026b52a22744a1ea276325ef5b738ed33c56ceaf4d6d7f0e303252139034c5b67ee0f416436e3ee54847246dce1d1881ff5e3592757a",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "bb498bbf7a85f496c6a60e6214f4eb8604de1e266f694a5207be88fc976afb0a041aa4060551d73d55c63295e1d6e96e190fa7870edc5718ab8f9ffec91b4bfe",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "ba9a347f30d58f143e5177dd25ed2cf6fa097894e79826060620d33f5492b0b3937e92540c2adf49ae0e543b289d25375489fb0f63bd6540eb4fe2b7ac30dcbf",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "c08e68b32a609a8ecf81f4ddbc11c3636c64c089aaa09959017e704a8e420bad018e1dd2cd6051ae8c17e7be066994b3d53a9f8edc9468d1c0cfeca9f558d385",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "2a3194f3846b275a4adb2d6bb7f839e04c016a96d78e60a723e24b28a23138ad41aa82b9e6364eeedcd19fbc4f7a4f3946f970f46a5687c543a8c26676be6229",
+        "type": "Unknown"
+      }
+    ],
+    "PipEnvInformation": [],
+    "/usr/local/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.6 64-bit",
+        "hash": "e88cad08b96de17d3106a17b7150310d4863edfb4da692771780bac0133bdd891c395f2b654733f4bb4025e5d0b29b494909fac003b3387b5a62ae0b207c64e5-e7e07f8506d93c6da3db66257a3fb602"
+      },
+      "expiry": 1603236863394
+    },
+    "/usr/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.16 64-bit",
+        "hash": "bb498bbf7a85f496c6a60e6214f4eb8604de1e266f694a5207be88fc976afb0a041aa4060551d73d55c63295e1d6e96e190fa7870edc5718ab8f9ffec91b4bfe-7c745dc246ed72fbad33f78b1b36bddc"
+      },
+      "expiry": 1603236863396
+    },
+    "/usr/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.2 64-bit",
+        "hash": "2a3194f3846b275a4adb2d6bb7f839e04c016a96d78e60a723e24b28a23138ad41aa82b9e6364eeedcd19fbc4f7a4f3946f970f46a5687c543a8c26676be6229-d1392d1e96779eefdcdd954cce52b136"
+      },
+      "expiry": 1603236863397
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.16 64-bit",
+        "hash": "17e6911ac885cc4468919eaf12d80c35e8c3e58f7576e87fdd00e3a478e132f2747297142923f32950a5ec8f006bb277d7d0eff1fbbc26fd80bffb94ce78a6fe-f9fdd6f35b85c188c355eddd207c092d"
+      },
+      "expiry": 1603236862363
+    },
+    "InterpreterAutoSeletionRule-system": {
+      "architecture": 3,
+      "path": "/usr/local/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.6-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 6,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.6-final"
+      },
+      "sysPrefix": "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8",
+      "fileHash": "e88cad08b96de17d3106a17b7150310d4863edfb4da692771780bac0133bdd891c395f2b654733f4bb4025e5d0b29b494909fac003b3387b5a62ae0b207c64e5",
+      "type": "Unknown",
+      "displayName": "Python 3.8.6 64-bit"
+    },
+    "/usr/local/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "e88cad08b96de17d3106a17b7150310d4863edfb4da692771780bac0133bdd891c395f2b654733f4bb4025e5d0b29b494909fac003b3387b5a62ae0b207c64e5",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/local/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.6-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 6,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.6-final"
+          },
+          "sysPrefix": "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8",
+          "fileHash": "e88cad08b96de17d3106a17b7150310d4863edfb4da692771780bac0133bdd891c395f2b654733f4bb4025e5d0b29b494909fac003b3387b5a62ae0b207c64e5",
+          "type": "Unknown",
+          "displayName": "Python 3.8.6 64-bit"
+        }
+      },
+      "expiry": 1603236863400
+    },
+    "/usr/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "bb498bbf7a85f496c6a60e6214f4eb8604de1e266f694a5207be88fc976afb0a041aa4060551d73d55c63295e1d6e96e190fa7870edc5718ab8f9ffec91b4bfe",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.16-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 16,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.16-final"
+          },
+          "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+          "fileHash": "bb498bbf7a85f496c6a60e6214f4eb8604de1e266f694a5207be88fc976afb0a041aa4060551d73d55c63295e1d6e96e190fa7870edc5718ab8f9ffec91b4bfe",
+          "type": "Unknown",
+          "displayName": "Python 2.7.16 64-bit"
+        }
+      },
+      "expiry": 1603236863403
+    },
+    "/usr/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "2a3194f3846b275a4adb2d6bb7f839e04c016a96d78e60a723e24b28a23138ad41aa82b9e6364eeedcd19fbc4f7a4f3946f970f46a5687c543a8c26676be6229",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.2-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 2,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.2-final"
+          },
+          "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+          "fileHash": "2a3194f3846b275a4adb2d6bb7f839e04c016a96d78e60a723e24b28a23138ad41aa82b9e6364eeedcd19fbc4f7a4f3946f970f46a5687c543a8c26676be6229",
+          "type": "Unknown",
+          "displayName": "Python 3.8.2 64-bit"
+        }
+      },
+      "expiry": 1603236863405
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "17e6911ac885cc4468919eaf12d80c35e8c3e58f7576e87fdd00e3a478e132f2747297142923f32950a5ec8f006bb277d7d0eff1fbbc26fd80bffb94ce78a6fe",
+        "info": {
+          "architecture": 3,
+          "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.16-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 16,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.16-final"
+          },
+          "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+          "fileHash": "17e6911ac885cc4468919eaf12d80c35e8c3e58f7576e87fdd00e3a478e132f2747297142923f32950a5ec8f006bb277d7d0eff1fbbc26fd80bffb94ce78a6fe",
+          "type": "Unknown",
+          "displayName": "Python 2.7.16 64-bit"
+        }
+      },
+      "expiry": 1603236862386
+    },
+    "InterpreterAutoSeletionRule-cachedInterpreters": {
+      "architecture": 3,
+      "path": "/usr/local/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.6-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 6,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.6-final"
+      },
+      "sysPrefix": "/usr/local/Cellar/python@3.8/3.8.6/Frameworks/Python.framework/Versions/3.8",
+      "fileHash": "e88cad08b96de17d3106a17b7150310d4863edfb4da692771780bac0133bdd891c395f2b654733f4bb4025e5d0b29b494909fac003b3387b5a62ae0b207c64e5",
+      "type": "Unknown",
+      "displayName": "Python 3.8.6 64-bit"
+    },
+    "ProposeLSBanner": false,
+    "/Users/lucaseras/Developer/333-se-django-react-api/333-api/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/333-se-django-react-api/333-api/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/333-se-django-react-api/333-api",
+        "fileHash": "e08b149a8b9076fbc7e15527468a363105e7bb18ba10385d280dec529d6f382fb3974884fdc02d1db949669bca0f568741008e6b535495b3e3a7489715b930af"
+      },
+      "expiry": 1603236862297
+    },
+    "/Users/lucaseras/Developer/333-se-django-react-api/333-api/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/333-se-django-react-api/333-api/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/333-se-django-react-api/333-api",
+        "fileHash": "307ed7b79caa03033d10aabeb3a7248fec4f8a693708544cc39ddc1b2782fa4858623fc9fc7dd410f517e461b86198701891f988675890a3f374ba128d7f83c3"
+      },
+      "expiry": 1603236862296
+    },
+    "InterpreterAutoSeletionRule-environment": {
+      "architecture": 3,
+      "path": "/Users/lucaseras/Developer/333-se-django-react-api/333-api/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.6-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 6,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.6-final"
+      },
+      "sysPrefix": "/Users/lucaseras/Developer/333-se-django-react-api/333-api",
+      "fileHash": "307ed7b79caa03033d10aabeb3a7248fec4f8a693708544cc39ddc1b2782fa4858623fc9fc7dd410f517e461b86198701891f988675890a3f374ba128d7f83c3",
+      "type": "VirtualEnv"
+    },
+    "/Users/lucaseras/Developer/333-se-django-react-api/333-api/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.6 64-bit ('333-api': venv)",
+        "hash": "e08b149a8b9076fbc7e15527468a363105e7bb18ba10385d280dec529d6f382fb3974884fdc02d1db949669bca0f568741008e6b535495b3e3a7489715b930af-f1ffa7712b25e33411316008351674d8"
+      },
+      "expiry": 1603236862321
+    },
+    "/Users/lucaseras/Developer/333-se-django-react-api/333-api/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "e08b149a8b9076fbc7e15527468a363105e7bb18ba10385d280dec529d6f382fb3974884fdc02d1db949669bca0f568741008e6b535495b3e3a7489715b930af",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/lucaseras/Developer/333-se-django-react-api/333-api/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.6-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 6,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.6-final"
+          },
+          "sysPrefix": "/Users/lucaseras/Developer/333-se-django-react-api/333-api",
+          "fileHash": "e08b149a8b9076fbc7e15527468a363105e7bb18ba10385d280dec529d6f382fb3974884fdc02d1db949669bca0f568741008e6b535495b3e3a7489715b930af",
+          "envName": "333-api",
+          "type": "Venv",
+          "displayName": "Python 3.8.6 64-bit ('333-api': venv)"
+        }
+      },
+      "expiry": 1603236862333
+    },
+    "/Users/lucaseras/Developer/333-se-django-react-api/333-api/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "307ed7b79caa03033d10aabeb3a7248fec4f8a693708544cc39ddc1b2782fa4858623fc9fc7dd410f517e461b86198701891f988675890a3f374ba128d7f83c3"
+      },
+      "expiry": 1603236862343
+    },
+    "/Users/lucaseras/Developer/333-se-django-react-api/333-api/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.6 64-bit ('333-api': venv)",
+        "hash": "307ed7b79caa03033d10aabeb3a7248fec4f8a693708544cc39ddc1b2782fa4858623fc9fc7dd410f517e461b86198701891f988675890a3f374ba128d7f83c3-7f3fa98714c7669f20e97c7c744f25e0"
+      },
+      "expiry": 1603236862399
+    }
+  },
+  "coc-python|/Users/lucaseras/Developer/mysite/polls": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:fe21c9b67ac8e572e3c0b82b76f1e8bd": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:fe21c9b67ac8e572e3c0b82b76f1e8bd": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/lucaseras/Developer/mysite/polls": {
+      "architecture": 3,
+      "path": "/usr/local/opt/python@3.8/bin/python3.8",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8",
+      "fileHash": "7db0d3ea58d077723b70666b6464361dc1e1b9bbff6fbb136291cf302591b60bf1b69ed5c7e37904e62c0c1fa77a836b2c6b5f774e50e1805f68c71138827e19",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "SelectedPythonPath": "/usr/local/opt/python@3.8/bin/python3.8"
+  },
+  "coc-python|/Users/lucaseras/Developer/mysite/mysite": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:850bd6f5368dd8e3e951e143174795a6": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:850bd6f5368dd8e3e951e143174795a6": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/lucaseras/Developer/mysite/mysite": {
+      "architecture": 3,
+      "path": "/usr/local/opt/python@3.8/bin/python3.8",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8",
+      "fileHash": "7db0d3ea58d077723b70666b6464361dc1e1b9bbff6fbb136291cf302591b60bf1b69ed5c7e37904e62c0c1fa77a836b2c6b5f774e50e1805f68c71138827e19",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lucaseras/Developer/333-se/lecture-slides/javaScriptTutorial": {
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": []
+  },
+  "coc-python|/Users/lucaseras/Developer/333-se-django-react-api": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:320a59e90c9bc02ea0efad8ba9af1bd6": [],
+    "SelectedPythonPath": "/Users/lucaseras/Developer/333-se-django-react-api/333-api/bin/python3",
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:320a59e90c9bc02ea0efad8ba9af1bd6": [
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/333-se-django-react-api/333-api/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/333-se-django-react-api/333-api",
+        "fileHash": "e08b149a8b9076fbc7e15527468a363105e7bb18ba10385d280dec529d6f382fb3974884fdc02d1db949669bca0f568741008e6b535495b3e3a7489715b930af",
+        "envName": "333-api",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/333-se-django-react-api/333-api/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/333-se-django-react-api/333-api",
+        "fileHash": "307ed7b79caa03033d10aabeb3a7248fec4f8a693708544cc39ddc1b2782fa4858623fc9fc7dd410f517e461b86198701891f988675890a3f374ba128d7f83c3",
+        "envName": "333-api",
+        "type": "Venv"
+      }
+    ],
+    "autoSelectedWorkspacePythonInterpreter-/Users/lucaseras/Developer/333-se-django-react-api": {
+      "architecture": 3,
+      "path": "/Users/lucaseras/Developer/333-se-django-react-api/333-api/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.6-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 6,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.6-final"
+      },
+      "sysPrefix": "/Users/lucaseras/Developer/333-se-django-react-api/333-api",
+      "fileHash": "307ed7b79caa03033d10aabeb3a7248fec4f8a693708544cc39ddc1b2782fa4858623fc9fc7dd410f517e461b86198701891f988675890a3f374ba128d7f83c3",
+      "type": "VirtualEnv"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/333-se-django-react-api/333-api/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/333-se-django-react-api/333-api",
+        "fileHash": "e08b149a8b9076fbc7e15527468a363105e7bb18ba10385d280dec529d6f382fb3974884fdc02d1db949669bca0f568741008e6b535495b3e3a7489715b930af",
+        "envName": "333-api",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/333-se-django-react-api/333-api/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.6-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.6-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/333-se-django-react-api/333-api",
+        "fileHash": "307ed7b79caa03033d10aabeb3a7248fec4f8a693708544cc39ddc1b2782fa4858623fc9fc7dd410f517e461b86198701891f988675890a3f374ba128d7f83c3",
+        "envName": "333-api",
+        "type": "Venv"
+      }
+    ]
+  }
+}

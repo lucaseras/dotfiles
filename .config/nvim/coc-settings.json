@@ -1,0 +1,14 @@
+{
+"suggest.noselect": false,
+"suggest.enablePreview": true,
+"codeLens.enable": true,
+"coc.source.around.enable": false,
+"coc.source.buffer.enable": false,
+"python.pythonPath": "python3",
+"coc.preferences.formatOnType": true,
+"coc.preferences.bracketEnterImprove":true,
+"python.autoComplete.extraPaths": [
+  "${env:SPARK_HOME}/python",
+  "${env:SPARK_HOME}/python/pyspark"
+]
+}
