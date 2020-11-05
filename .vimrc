@@ -19,6 +19,9 @@ Plug 'honza/vim-snippets'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'NLKNguyen/papercolor-theme'
+Plug 'jez/vim-better-sml'
+Plug 'tpope/vim-surround'
+Plug 'christoomey/vim-tmux-navigator'
 call plug#end()
 
 " source this file once it is saved/closed
@@ -46,11 +49,11 @@ colorscheme gruvbox
 
 
 let g:airline_powerline_fonts = 1
-let g:NERDTreeDirArrowExpandable = '▸'
-let g:NERDTreeDirArrowCollapsible = '▾'
 
+let g:sml_smlnj_executable ='/usr/local/smlnj/bin/sml'
 
 " ================ FZF settings ===================
+set rtp+=/usr/local/opt/fzf
 " open buffers
 nnoremap <silent> <Leader>b :Buffers<CR>
 
@@ -107,6 +110,8 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
+set noswapfile
+
 " ================ Main maps ====================
 " Leave the editor with Ctrl-q (KDE): Write all changed buffers and exit Vim
 nnoremap  <C-q>    :wqall<CR>
@@ -123,9 +128,20 @@ noremap <Leader>p "*p
 noremap <Leader>Y "+y
 noremap <Leader>P "+p
 
+" move between splits without doing <C-w>
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+" tab maps
+nnoremap th :tabprev<CR>
+nnoremap tl :tabnext<CR>
+nnoremap tn :tabnew<CR>
+
 " ================ Markdown Configs ====================
 
-" set to 1, nvim will open the preview window after entering the markdown buffer
+"set to 1, nvim will open the preview window after entering the markdown buffer
 " default: 0
 let g:mkdp_auto_start = 0
 
@@ -216,6 +232,7 @@ let g:mkdp_page_title = '「${name}」'
 nmap <C-s> <Plug>MarkdownPreviewToggle
 
 set splitright
+set splitbelow
 "-------------------------------------------------------------------------------
 " Multiple sets
 "-------------------------------------------------------------------------------
@@ -284,3 +301,19 @@ inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
 " ================ NerdTree Configs ====================
 map <C-n> :NERDTreeToggle<CR>
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
+
+" open NerdTree automatically if no files are specified
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+
+" do not open NerdTree if using source
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") && v:this_session == "" | NERDTree | endif
+
+" open NerdTree if starting vim in directory
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | exe 'cd '.argv()[0] | endif
+
