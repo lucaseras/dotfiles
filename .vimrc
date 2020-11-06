@@ -24,25 +24,13 @@ Plug 'tpope/vim-surround'
 Plug 'christoomey/vim-tmux-navigator'
 call plug#end()
 
-" source this file once it is saved/closed
-if has ('autocmd') " Remain compatible with earlier versions
- augroup vimrc     " Source vim configuration upon save
-    autocmd! BufWritePost $MYVIMRC source % | echom "Reloaded " . $MYVIMRC | redraw
-    autocmd! BufWritePost $MYGVIMRC if has('gui_running') | so % | echom "Reloaded " . $MYGVIMRC | endif | redraw
-  augroup END
-endif " has autocmd
-
-
-"highlight OverLength ctermbg=darkgrey ctermfg=white guibg=#FFD9D9
-"match OverLength /\%81v.\+/
-
 " ================ General Config ====================
 set nocompatible
 
 " enable syntax highlighting
 syntax on
 
- colorscheme gruvbox
+colorscheme gruvbox
 set background=dark
 let g:gruvbox_constrast_dark = "hard"
 colorscheme gruvbox
@@ -56,16 +44,34 @@ let g:sml_smlnj_executable ='/usr/local/smlnj/bin/sml'
 set rtp+=/usr/local/opt/fzf
 " open buffers
 nnoremap <silent> <Leader>b :Buffers<CR>
-
 " find files with fzf
 nnoremap <silent> <C-f> :Files<CR>
-
 " find content in files
 nnoremap <silent> <Leader>f :Rg<CR>
-
+" find lines in file
 nnoremap <silent> <Leader>/ :BLines<CR>
-
+" look at git commit history
 nnoremap <silent> <Leader>g :Commits<CR>
+
+" Open files in horizontal split
+nnoremap <silent> <Leader>s :call fzf#run({
+\   'down': '40%',
+\   'sink': 'botright split' })<CR>
+
+" Open files in vertical horizontal split
+nnoremap <silent> <Leader>v :call fzf#run({
+\   'right': winwidth('.') / 2,
+\   'sink':  'vertical botright split' })<CR>
+
+" Mapping selecting mappings
+nmap <leader><tab> <plug>(fzf-maps-n)
+xmap <leader><tab> <plug>(fzf-maps-x)
+omap <leader><tab> <plug>(fzf-maps-o)
+
+" Path completion with custom source command
+inoremap <expr> <c-x><c-f> fzf#vim#complete#path('fd')
+inoremap <expr> <c-x><c-f> fzf#vim#complete#path('rg --files')
+
 
 
 "use ripgrep instead of grep
@@ -114,7 +120,7 @@ set noswapfile
 
 " ================ Main maps ====================
 " Leave the editor with Ctrl-q (KDE): Write all changed buffers and exit Vim
-nnoremap  <C-q>    :wqall<CR>
+nnoremap  <C-q>    :wq<CR>
 
 
 " using jk rather than <ESC>

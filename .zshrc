@@ -11,14 +11,20 @@ fi
 # Path to your oh-my-zsh installation.
 alias python=/usr/local/bin/python3
 export ZSH="/Users/lucaseras/.oh-my-zsh"
-
 export PATH=/usr/local/smlnj/bin:"$PATH"
+export PATH=$PATH:$HOME/Library/Python/3.9/bin
+
+export PATH=$HOME/tools/nvim:$PATH
+powerline-daemon -q
+. /Users/lucaseras/Library/Python/3.9/lib/python/site-packages/powerline/bindings/zsh/powerline.zsh
+
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="powerlevel10k/powerlevel10k"
+#ZSH_THEME="spaceship"
 PROMPT="%n %~"
 
 # Set list of themes to pick from when loading at random
@@ -79,7 +85,10 @@ PROMPT="%n %~"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions)
+plugins=(
+    git zsh-autosuggestions
+    vi-mode
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -91,11 +100,11 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+ if [[ -n $SSH_CONNECTION ]]; then
+   export EDITOR='vim'
+ else
+   export EDITOR='mvim'
+ fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -115,3 +124,11 @@ alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 alias pip=/usr/local/bin/pip3
+
+
+# Responding to .gitignore
+
+# Setting grep as the default source for fzf
+export FZF_DEFAULT_COMMAND='rg --files --no-ignore-vcs --hidden'
+# To apply the command to CTRL-T as well
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
