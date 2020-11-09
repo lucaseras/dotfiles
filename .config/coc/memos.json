@@ -26,7 +26,7 @@
         "sysPrefix": "/usr/local/Cellar/python@3.9/3.9.0_1/Frameworks/Python.framework/Versions/3.9",
         "fileHash": "a41341496a03cb6c15d350d5a0593dc7e46b55e3c9db7818626b902c3ae7c719436f761ab44274a5031d186894e3b49af1d3d61645fd1c7353002510d5f8244f"
       },
-      "expiry": 1604724340945
+      "expiry": 1605035656265
     },
     "/usr/bin/python2.7.v3": {
       "data": {
@@ -51,7 +51,7 @@
         "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
         "fileHash": "c08e68b32a609a8ecf81f4ddbc11c3636c64c089aaa09959017e704a8e420bad018e1dd2cd6051ae8c17e7be066994b3d53a9f8edc9468d1c0cfeca9f558d385"
       },
-      "expiry": 1604724340986
+      "expiry": 1605035656279
     },
     "/usr/bin/python2.v3": {
       "data": {
@@ -76,7 +76,7 @@
         "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
         "fileHash": "ba9a347f30d58f143e5177dd25ed2cf6fa097894e79826060620d33f5492b0b3937e92540c2adf49ae0e543b289d25375489fb0f63bd6540eb4fe2b7ac30dcbf"
       },
-      "expiry": 1604724340987
+      "expiry": 1605035656281
     },
     "/usr/bin/python.v3": {
       "data": {
@@ -101,7 +101,7 @@
         "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
         "fileHash": "bb498bbf7a85f496c6a60e6214f4eb8604de1e266f694a5207be88fc976afb0a041aa4060551d73d55c63295e1d6e96e190fa7870edc5718ab8f9ffec91b4bfe"
       },
-      "expiry": 1604724340989
+      "expiry": 1605035656284
     },
     "/usr/local/bin/python3.8.v3": {
       "data": {
@@ -126,7 +126,7 @@
         "sysPrefix": "/usr/local/Cellar/python@3.8/3.8.6_1/Frameworks/Python.framework/Versions/3.8",
         "fileHash": "e061fef266a026406d3eab66c1946214073a712fd15975712b4606937d32d422068e92622afb1760ce2bfdfcd2694241ae5e1afe05ea7c37c05ae984261c467c"
       },
-      "expiry": 1604724341038
+      "expiry": 1605035656291
     },
     "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.v3": {
       "data": {
@@ -151,7 +151,7 @@
         "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
         "fileHash": "17e6911ac885cc4468919eaf12d80c35e8c3e58f7576e87fdd00e3a478e132f2747297142923f32950a5ec8f006bb277d7d0eff1fbbc26fd80bffb94ce78a6fe"
       },
-      "expiry": 1604724341089
+      "expiry": 1605035656319
     },
     "/usr/local/opt/python@3.8/bin/python3.8.v3": {
       "data": {
@@ -381,7 +381,7 @@
         "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
         "fileHash": "2a3194f3846b275a4adb2d6bb7f839e04c016a96d78e60a723e24b28a23138ad41aa82b9e6364eeedcd19fbc4f7a4f3946f970f46a5687c543a8c26676be6229"
       },
-      "expiry": 1604724341380
+      "expiry": 1605035656354
     },
     "INTERPRETERS_CACHE_v3_KnownPathsService": [
       {
@@ -713,28 +713,28 @@
         "displayName": "Python 3.9.0 64-bit",
         "hash": "a41341496a03cb6c15d350d5a0593dc7e46b55e3c9db7818626b902c3ae7c719436f761ab44274a5031d186894e3b49af1d3d61645fd1c7353002510d5f8244f-6a10d5a55ff954f65fb414153093fcb0"
       },
-      "expiry": 1604764239090
+      "expiry": 1605035656372
     },
     "/usr/bin/python.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 2.7.16 64-bit",
         "hash": "bb498bbf7a85f496c6a60e6214f4eb8604de1e266f694a5207be88fc976afb0a041aa4060551d73d55c63295e1d6e96e190fa7870edc5718ab8f9ffec91b4bfe-7c745dc246ed72fbad33f78b1b36bddc"
       },
-      "expiry": 1604764239092
+      "expiry": 1605035656374
     },
     "/usr/bin/python3.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 3.8.2 64-bit",
         "hash": "2a3194f3846b275a4adb2d6bb7f839e04c016a96d78e60a723e24b28a23138ad41aa82b9e6364eeedcd19fbc4f7a4f3946f970f46a5687c543a8c26676be6229-d1392d1e96779eefdcdd954cce52b136"
       },
-      "expiry": 1604764239096
+      "expiry": 1605035656375
     },
     "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 2.7.16 64-bit",
         "hash": "17e6911ac885cc4468919eaf12d80c35e8c3e58f7576e87fdd00e3a478e132f2747297142923f32950a5ec8f006bb277d7d0eff1fbbc26fd80bffb94ce78a6fe-f9fdd6f35b85c188c355eddd207c092d"
       },
-      "expiry": 1604724341146
+      "expiry": 1605035656379
     },
     "InterpreterAutoSeletionRule-system": {
       "architecture": 3,
@@ -788,7 +788,7 @@
           "displayName": "Python 3.9.0 64-bit"
         }
       },
-      "expiry": 1604764239104
+      "expiry": 1605035656384
     },
     "/usr/bin/python.interpreter.Details.v7": {
       "data": {
@@ -818,7 +818,7 @@
           "displayName": "Python 2.7.16 64-bit"
         }
       },
-      "expiry": 1604764239108
+      "expiry": 1605035656388
     },
     "/usr/bin/python3.interpreter.Details.v7": {
       "data": {
@@ -848,7 +848,7 @@
           "displayName": "Python 3.8.2 64-bit"
         }
       },
-      "expiry": 1604764239115
+      "expiry": 1605035656391
     },
     "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.Details.v7": {
       "data": {
@@ -878,7 +878,7 @@
           "displayName": "Python 2.7.16 64-bit"
         }
       },
-      "expiry": 1604724341162
+      "expiry": 1605035656400
     },
     "InterpreterAutoSeletionRule-cachedInterpreters": {
       "architecture": 3,
@@ -902,7 +902,6 @@
       "sysPrefix": "/usr/local/Cellar/python@3.9/3.9.0_1/Frameworks/Python.framework/Versions/3.9",
       "fileHash": "f9991bfb08f338d2ed22053f341cbbe4e505eee615e78ce7f78bf433df352aff6187f1bac2c0ca24d15bcd3ed6f249f4870162bf39c35ee437d06018f2bdae2e",
       "type": "Unknown",
-      "cachedEntry": true,
       "displayName": "Python 3.9.0 64-bit"
     },
     "ProposeLSBanner": false,
@@ -916,20 +915,20 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.8.6-final",
+          "raw": "3.9.0-final",
           "major": 3,
-          "minor": 8,
-          "patch": 6,
+          "minor": 9,
+          "patch": 0,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.8.6-final"
+          "version": "3.9.0-final"
         },
         "sysPrefix": "/Users/lucaseras/Developer/333-se-django-react-api/333-api",
         "fileHash": "e08b149a8b9076fbc7e15527468a363105e7bb18ba10385d280dec529d6f382fb3974884fdc02d1db949669bca0f568741008e6b535495b3e3a7489715b930af"
       },
-      "expiry": 1603236862297
+      "expiry": 1604991701527
     },
     "/Users/lucaseras/Developer/333-se-django-react-api/333-api/bin/python3.v3": {
       "data": {
@@ -941,20 +940,20 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.8.6-final",
+          "raw": "3.9.0-final",
           "major": 3,
-          "minor": 8,
-          "patch": 6,
+          "minor": 9,
+          "patch": 0,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.8.6-final"
+          "version": "3.9.0-final"
         },
         "sysPrefix": "/Users/lucaseras/Developer/333-se-django-react-api/333-api",
         "fileHash": "307ed7b79caa03033d10aabeb3a7248fec4f8a693708544cc39ddc1b2782fa4858623fc9fc7dd410f517e461b86198701891f988675890a3f374ba128d7f83c3"
       },
-      "expiry": 1603236862296
+      "expiry": 1604991701530
     },
     "InterpreterAutoSeletionRule-environment": {
       "architecture": 3,
@@ -981,10 +980,10 @@
     },
     "/Users/lucaseras/Developer/333-se-django-react-api/333-api/bin/python.interpreter.displayName.v7": {
       "data": {
-        "displayName": "Python 3.8.6 64-bit ('333-api': venv)",
-        "hash": "e08b149a8b9076fbc7e15527468a363105e7bb18ba10385d280dec529d6f382fb3974884fdc02d1db949669bca0f568741008e6b535495b3e3a7489715b930af-f1ffa7712b25e33411316008351674d8"
+        "displayName": "Python 3.9.0 64-bit ('333-api': venv)",
+        "hash": "e08b149a8b9076fbc7e15527468a363105e7bb18ba10385d280dec529d6f382fb3974884fdc02d1db949669bca0f568741008e6b535495b3e3a7489715b930af-bfba1dda5cf85d9cfe4c69bc69148956"
       },
-      "expiry": 1603236862321
+      "expiry": 1604991701567
     },
     "/Users/lucaseras/Developer/333-se-django-react-api/333-api/bin/python.interpreter.Details.v7": {
       "data": {
@@ -998,24 +997,24 @@
               "includePrerelease": false
             },
             "loose": false,
-            "raw": "3.8.6-final",
+            "raw": "3.9.0-final",
             "major": 3,
-            "minor": 8,
-            "patch": 6,
+            "minor": 9,
+            "patch": 0,
             "prerelease": [
               "final"
             ],
             "build": [],
-            "version": "3.8.6-final"
+            "version": "3.9.0-final"
           },
           "sysPrefix": "/Users/lucaseras/Developer/333-se-django-react-api/333-api",
           "fileHash": "e08b149a8b9076fbc7e15527468a363105e7bb18ba10385d280dec529d6f382fb3974884fdc02d1db949669bca0f568741008e6b535495b3e3a7489715b930af",
           "envName": "333-api",
           "type": "Venv",
-          "displayName": "Python 3.8.6 64-bit ('333-api': venv)"
+          "displayName": "Python 3.9.0 64-bit ('333-api': venv)"
         }
       },
-      "expiry": 1603236862333
+      "expiry": 1604991701590
     },
     "/Users/lucaseras/Developer/333-se-django-react-api/333-api/bin/python3.interpreter.Details.v7": {
       "data": {
@@ -1053,7 +1052,7 @@
         "sysPrefix": "/usr/local/Cellar/python@3.9/3.9.0_1/Frameworks/Python.framework/Versions/3.9",
         "fileHash": "d375c4f2710be9602c83b5ac9b7f092e04e6136ab147459ddf4af15cebce12f3555c740a598c568960eea86919b701a5738b05a133b71b164d15df67abd3ffb5"
       },
-      "expiry": 1604724341036
+      "expiry": 1605035656283
     },
     "/usr/local/opt/python@3.9/bin/python3.9.v3": {
       "data": {
@@ -1078,7 +1077,7 @@
         "sysPrefix": "/usr/local/Cellar/python@3.9/3.9.0_1/Frameworks/Python.framework/Versions/3.9",
         "fileHash": "f9991bfb08f338d2ed22053f341cbbe4e505eee615e78ce7f78bf433df352aff6187f1bac2c0ca24d15bcd3ed6f249f4870162bf39c35ee437d06018f2bdae2e"
       },
-      "expiry": 1604724341091
+      "expiry": 1605035656350
     },
     "/usr/local/opt/python@3.9/bin/python3.9.interpreter.Details.v7": {
       "data": {
@@ -1108,21 +1107,21 @@
           "displayName": "Python 3.9.0 64-bit"
         }
       },
-      "expiry": 1604764239208
+      "expiry": 1605035679340
     },
     "/usr/local/opt/python@3.9/bin/python3.9.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 3.9.0 64-bit",
         "hash": "f9991bfb08f338d2ed22053f341cbbe4e505eee615e78ce7f78bf433df352aff6187f1bac2c0ca24d15bcd3ed6f249f4870162bf39c35ee437d06018f2bdae2e-91e7939d4ff35d2aa6b3c1afa74a1ffd"
       },
-      "expiry": 1604764239191
+      "expiry": 1605035679325
     },
     "/usr/local/bin/python3.8.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 3.8.6 64-bit",
         "hash": "e061fef266a026406d3eab66c1946214073a712fd15975712b4606937d32d422068e92622afb1760ce2bfdfcd2694241ae5e1afe05ea7c37c05ae984261c467c-f222b7664f0512602c8ae7794ec60c10"
       },
-      "expiry": 1604764239094
+      "expiry": 1605035656376
     },
     "/usr/local/bin/python3.8.interpreter.Details.v7": {
       "data": {
@@ -1152,7 +1151,144 @@
           "displayName": "Python 3.8.6 64-bit"
         }
       },
-      "expiry": 1604764239111
+      "expiry": 1605035656394
+    },
+    "/Users/lucaseras/Developer/django-react-project/django-react/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/django-react-project/django-react/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.0-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.0-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/django-react-project/django-react",
+        "fileHash": "11476b119ff27fe01915fd16f461126a111ff0f38ab81ca05694a62669911c9068fdd7f86510f74107851d8e0d332b1ceb7b9862a23647ee15e14fb677f5023e"
+      },
+      "expiry": 1604989785761
+    },
+    "/Users/lucaseras/Developer/django-react-project/django-react/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/django-react-project/django-react/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.0-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.0-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/django-react-project/django-react",
+        "fileHash": "ab92f7649af433e2000190c71915caf33cf27fc40ff5f2cc351e2504010424d2b2050b763a687c03805bcb0226b5aca3315333a99812537ebee733f1c9b80907"
+      },
+      "expiry": 1604989785764
+    },
+    "/Users/lucaseras/Developer/django-react-project/django-react/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/django-react-project/django-react/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.0-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.0-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/django-react-project/django-react",
+        "fileHash": "6b2b5189b4f9f784a5cb50b874c2d5d145c3ae5a762df9f20d6a0e81697d3439dc1555bece0a8b90be2b62e5d983475624ba4807cbed065a16307432cd238cfa"
+      },
+      "expiry": 1604989785763
+    },
+    "/Users/lucaseras/Developer/django-react-project/django-react/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.0 64-bit ('django-react': venv)",
+        "hash": "11476b119ff27fe01915fd16f461126a111ff0f38ab81ca05694a62669911c9068fdd7f86510f74107851d8e0d332b1ceb7b9862a23647ee15e14fb677f5023e-9e8aee6bcebdb1d84abca82bcc96d175"
+      },
+      "expiry": 1604989785748
+    },
+    "/Users/lucaseras/Developer/django-react-project/django-react/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "11476b119ff27fe01915fd16f461126a111ff0f38ab81ca05694a62669911c9068fdd7f86510f74107851d8e0d332b1ceb7b9862a23647ee15e14fb677f5023e",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/lucaseras/Developer/django-react-project/django-react/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.0-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 0,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.0-final"
+          },
+          "sysPrefix": "/Users/lucaseras/Developer/django-react-project/django-react",
+          "fileHash": "11476b119ff27fe01915fd16f461126a111ff0f38ab81ca05694a62669911c9068fdd7f86510f74107851d8e0d332b1ceb7b9862a23647ee15e14fb677f5023e",
+          "envName": "django-react",
+          "type": "Venv",
+          "displayName": "Python 3.9.0 64-bit ('django-react': venv)"
+        }
+      },
+      "expiry": 1604989785757
+    },
+    "InterpreterAutoSeletionRule-workspaceEnvs": {
+      "architecture": 3,
+      "path": "/Users/lucaseras/Developer/333-se-django-react-api/333-api/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.0-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 0,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.0-final"
+      },
+      "sysPrefix": "/Users/lucaseras/Developer/333-se-django-react-api/333-api",
+      "fileHash": "307ed7b79caa03033d10aabeb3a7248fec4f8a693708544cc39ddc1b2782fa4858623fc9fc7dd410f517e461b86198701891f988675890a3f374ba128d7f83c3",
+      "envName": "333-api",
+      "type": "Venv"
     }
   },
   "coc-python|/Users/lucaseras/Developer/mysite/polls": {
@@ -1231,15 +1367,15 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.8.6-final",
+          "raw": "3.9.0-final",
           "major": 3,
-          "minor": 8,
-          "patch": 6,
+          "minor": 9,
+          "patch": 0,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.8.6-final"
+          "version": "3.9.0-final"
         },
         "sysPrefix": "/Users/lucaseras/Developer/333-se-django-react-api/333-api",
         "fileHash": "e08b149a8b9076fbc7e15527468a363105e7bb18ba10385d280dec529d6f382fb3974884fdc02d1db949669bca0f568741008e6b535495b3e3a7489715b930af",
@@ -1255,15 +1391,15 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.8.6-final",
+          "raw": "3.9.0-final",
           "major": 3,
-          "minor": 8,
-          "patch": 6,
+          "minor": 9,
+          "patch": 0,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.8.6-final"
+          "version": "3.9.0-final"
         },
         "sysPrefix": "/Users/lucaseras/Developer/333-se-django-react-api/333-api",
         "fileHash": "307ed7b79caa03033d10aabeb3a7248fec4f8a693708544cc39ddc1b2782fa4858623fc9fc7dd410f517e461b86198701891f988675890a3f374ba128d7f83c3",
@@ -1280,19 +1416,20 @@
           "includePrerelease": false
         },
         "loose": false,
-        "raw": "3.8.6-final",
+        "raw": "3.9.0-final",
         "major": 3,
-        "minor": 8,
-        "patch": 6,
+        "minor": 9,
+        "patch": 0,
         "prerelease": [
           "final"
         ],
         "build": [],
-        "version": "3.8.6-final"
+        "version": "3.9.0-final"
       },
       "sysPrefix": "/Users/lucaseras/Developer/333-se-django-react-api/333-api",
       "fileHash": "307ed7b79caa03033d10aabeb3a7248fec4f8a693708544cc39ddc1b2782fa4858623fc9fc7dd410f517e461b86198701891f988675890a3f374ba128d7f83c3",
-      "type": "VirtualEnv"
+      "envName": "333-api",
+      "type": "Venv"
     },
     "INTERPRETERS_CACHE_v3_PipEnvService": [],
     "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
@@ -1305,15 +1442,15 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.8.6-final",
+          "raw": "3.9.0-final",
           "major": 3,
-          "minor": 8,
-          "patch": 6,
+          "minor": 9,
+          "patch": 0,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.8.6-final"
+          "version": "3.9.0-final"
         },
         "sysPrefix": "/Users/lucaseras/Developer/333-se-django-react-api/333-api",
         "fileHash": "e08b149a8b9076fbc7e15527468a363105e7bb18ba10385d280dec529d6f382fb3974884fdc02d1db949669bca0f568741008e6b535495b3e3a7489715b930af",
@@ -1329,15 +1466,15 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.8.6-final",
+          "raw": "3.9.0-final",
           "major": 3,
-          "minor": 8,
-          "patch": 6,
+          "minor": 9,
+          "patch": 0,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.8.6-final"
+          "version": "3.9.0-final"
         },
         "sysPrefix": "/Users/lucaseras/Developer/333-se-django-react-api/333-api",
         "fileHash": "307ed7b79caa03033d10aabeb3a7248fec4f8a693708544cc39ddc1b2782fa4858623fc9fc7dd410f517e461b86198701891f988675890a3f374ba128d7f83c3",
@@ -1349,6 +1486,213 @@
   "coc-python|/Users/lucaseras/Developer/leetCode": {
     "INTERPRETERS_CACHE_v3_PipEnvService:cb6e2f50df0f36a2fe69cdd9ba6d2970": [],
     "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:cb6e2f50df0f36a2fe69cdd9ba6d2970": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lucaseras/Developer/333-se": {
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:4c83d41fa0882a413c81c3ebdf516aba": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:4c83d41fa0882a413c81c3ebdf516aba": []
+  },
+  "coc-python|/Users/lucaseras/Developer/django-react-project": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:34fafe19ba8cb66876e86b7e452a1c1c": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:34fafe19ba8cb66876e86b7e452a1c1c": [
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/django-react-project/django-react/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.0-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.0-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/django-react-project/django-react",
+        "fileHash": "11476b119ff27fe01915fd16f461126a111ff0f38ab81ca05694a62669911c9068fdd7f86510f74107851d8e0d332b1ceb7b9862a23647ee15e14fb677f5023e",
+        "envName": "django-react",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/django-react-project/django-react/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.0-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.0-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/django-react-project/django-react",
+        "fileHash": "ab92f7649af433e2000190c71915caf33cf27fc40ff5f2cc351e2504010424d2b2050b763a687c03805bcb0226b5aca3315333a99812537ebee733f1c9b80907",
+        "envName": "django-react",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/django-react-project/django-react/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.0-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.0-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/django-react-project/django-react",
+        "fileHash": "6b2b5189b4f9f784a5cb50b874c2d5d145c3ae5a762df9f20d6a0e81697d3439dc1555bece0a8b90be2b62e5d983475624ba4807cbed065a16307432cd238cfa",
+        "envName": "django-react",
+        "type": "Venv"
+      }
+    ],
+    "SelectedPythonPath": "/Users/lucaseras/Developer/django-react-project/django-react/bin/python3.9",
+    "autoSelectedWorkspacePythonInterpreter-/Users/lucaseras/Developer/django-react-project": {
+      "architecture": 3,
+      "path": "/Users/lucaseras/Developer/django-react-project/django-react/bin/python3.9",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.0-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 0,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.0-final"
+      },
+      "sysPrefix": "/Users/lucaseras/Developer/django-react-project/django-react",
+      "fileHash": "6b2b5189b4f9f784a5cb50b874c2d5d145c3ae5a762df9f20d6a0e81697d3439dc1555bece0a8b90be2b62e5d983475624ba4807cbed065a16307432cd238cfa",
+      "envName": "django-react",
+      "type": "Venv"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/django-react-project/django-react/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.0-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.0-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/django-react-project/django-react",
+        "fileHash": "11476b119ff27fe01915fd16f461126a111ff0f38ab81ca05694a62669911c9068fdd7f86510f74107851d8e0d332b1ceb7b9862a23647ee15e14fb677f5023e",
+        "envName": "django-react",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/django-react-project/django-react/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.0-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.0-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/django-react-project/django-react",
+        "fileHash": "ab92f7649af433e2000190c71915caf33cf27fc40ff5f2cc351e2504010424d2b2050b763a687c03805bcb0226b5aca3315333a99812537ebee733f1c9b80907",
+        "envName": "django-react",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/django-react-project/django-react/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.0-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.0-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/django-react-project/django-react",
+        "fileHash": "6b2b5189b4f9f784a5cb50b874c2d5d145c3ae5a762df9f20d6a0e81697d3439dc1555bece0a8b90be2b62e5d983475624ba4807cbed065a16307432cd238cfa",
+        "envName": "django-react",
+        "type": "Venv"
+      }
+    ]
+  },
+  "coc-python|/Users/lucaseras/.local/share/nvim/plugged/vim-iterm2-navigator": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:738e7b1327b272c454bdae9213f32354": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:738e7b1327b272c454bdae9213f32354": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lucaseras/Developer/django-react-project/backend/todoapp": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:c5e6339345c9078d5568c08d66cec0f9": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:c5e6339345c9078d5568c08d66cec0f9": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lucaseras/Developer": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:bae45377658af527cf98a28644276a2f": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:bae45377658af527cf98a28644276a2f": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lucaseras/Developer/django-react-project/backend": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:41b944c71ca6d111502a1eaaf00fa85b": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:41b944c71ca6d111502a1eaaf00fa85b": [],
     "INTERPRETERS_CACHE_v3_PipEnvService": [],
     "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
   }

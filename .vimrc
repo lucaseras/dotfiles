@@ -10,7 +10,6 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-fugitive'
 Plug 'preservim/nerdcommenter'
 Plug 'xavierd/clang_complete'
-Plug 'yegappan/mru'
 Plug 'itchyny/calendar.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'plasticboy/vim-markdown'
@@ -22,7 +21,39 @@ Plug 'NLKNguyen/papercolor-theme'
 Plug 'jez/vim-better-sml'
 Plug 'tpope/vim-surround'
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'haya14busa/is.vim'
+Plug 'mhinz/vim-startify'
+Plug 'yegappan/mru'
 call plug#end()
+
+
+
+" ================ Main maps ====================
+" Leave the editor with Ctrl-q (KDE): Write all changed buffers and exit Vim
+nnoremap  <C-q>    :wq<CR>
+
+
+" using jk rather than <ESC>
+inoremap jk <ESC>
+
+" set <leader> to be <SPACE>
+let mapleader = " "
+
+noremap <Leader>y "*y
+noremap <Leader>p "*p
+noremap <Leader>Y "+y
+noremap <Leader>P "+p
+
+" move between splits without doing <C-w>
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+" tab maps
+nnoremap th :tabprev<CR>
+nnoremap tl :tabnext<CR>
+nnoremap tn :tabnew<CR>
 
 " ================ General Config ====================
 set nocompatible
@@ -41,7 +72,7 @@ let g:airline_powerline_fonts = 1
 let g:sml_smlnj_executable ='/usr/local/smlnj/bin/sml'
 
 " ================ FZF settings ===================
-set rtp+=/usr/local/opt/fzf
+"set rtp+=/usr/local/opt/fzf
 " open buffers
 nnoremap <silent> <Leader>b :Buffers<CR>
 " find files with fzf
@@ -52,6 +83,18 @@ nnoremap <silent> <Leader>f :Rg<CR>
 nnoremap <silent> <Leader>/ :BLines<CR>
 " look at git commit history
 nnoremap <silent> <Leader>g :Commits<CR>
+" open Fzfmru
+nnoremap <silent> <leader>m :FZFMru<CR>
+" see available commands
+nnoremap <silent> <Leader>c :Commands<CR>
+" open history of files
+"
+
+" keybinds we can use during :FZF
+let g:fzf_action = {
+  \ 'ctrl-t': 'tab split',
+  \ 'ctrl-s': 'split',
+  \ 'ctrl-v': 'vsplit' }
 
 " Open files in horizontal split
 nnoremap <silent> <Leader>s :call fzf#run({
@@ -63,16 +106,14 @@ nnoremap <silent> <Leader>v :call fzf#run({
 \   'right': winwidth('.') / 2,
 \   'sink':  'vertical botright split' })<CR>
 
-" Mapping selecting mappings
+" See a list of defined maps
 nmap <leader><tab> <plug>(fzf-maps-n)
 xmap <leader><tab> <plug>(fzf-maps-x)
 omap <leader><tab> <plug>(fzf-maps-o)
 
 " Path completion with custom source command
 inoremap <expr> <c-x><c-f> fzf#vim#complete#path('fd')
-inoremap <expr> <c-x><c-f> fzf#vim#complete#path('rg --files')
-
-
+"inoremap <expr> <c-x><c-f> fzf#vim#complete#path('rg --files')
 
 "use ripgrep instead of grep
 set grepprg=rg\ --vimgrep\ --smart-case\ --follow
@@ -118,32 +159,6 @@ set expandtab
 
 set noswapfile
 
-" ================ Main maps ====================
-" Leave the editor with Ctrl-q (KDE): Write all changed buffers and exit Vim
-nnoremap  <C-q>    :wq<CR>
-
-
-" using jk rather than <ESC>
-inoremap jk <ESC>
-
-" set <leader> to be <SPACE>
-let mapleader = " "
-
-noremap <Leader>y "*y
-noremap <Leader>p "*p
-noremap <Leader>Y "+y
-noremap <Leader>P "+p
-
-" move between splits without doing <C-w>
-nnoremap <C-J> <C-W><C-J>
-nnoremap <C-K> <C-W><C-K>
-nnoremap <C-L> <C-W><C-L>
-nnoremap <C-H> <C-W><C-H>
-
-" tab maps
-nnoremap th :tabprev<CR>
-nnoremap tl :tabnext<CR>
-nnoremap tn :tabnew<CR>
 
 " ================ Markdown Configs ====================
 
@@ -246,7 +261,7 @@ set splitbelow
 set number
 
 " regexp highlighting turned off :)
-set nohlsearch
+"set nohlsearch
 
 " when using the >> or << commands, shift lines by 4 spaces (python friendly)
 "set shiftwidth=4
@@ -310,16 +325,16 @@ map <C-n> :NERDTreeToggle<CR>
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 
-" open NerdTree automatically if no files are specified
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+"" open NerdTree automatically if no files are specified
+"autocmd StdinReadPre * let s:std_in=1
+"autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 
-" do not open NerdTree if using source
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") && v:this_session == "" | NERDTree | endif
+"" do not open NerdTree if using source
+"autocmd StdinReadPre * let s:std_in=1
+"autocmd VimEnter * if argc() == 0 && !exists("s:std_in") && v:this_session == "" | NERDTree | endif
 
-" open NerdTree if starting vim in directory
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | exe 'cd '.argv()[0] | endif
+"" open NerdTree if starting vim in directory
+"autocmd StdinReadPre * let s:std_in=1
+"autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | exe 'cd '.argv()[0] | endif
 

@@ -10,6 +10,7 @@ fi
 
 # Path to your oh-my-zsh installation.
 alias python=/usr/local/bin/python3
+alias v=/usr/local/bin/nvim
 export ZSH="/Users/lucaseras/.oh-my-zsh"
 export PATH=/usr/local/smlnj/bin:"$PATH"
 export PATH=$PATH:$HOME/Library/Python/3.9/bin
@@ -88,6 +89,7 @@ PROMPT="%n %~"
 plugins=(
     git zsh-autosuggestions
     vi-mode
+    fzf
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -103,7 +105,7 @@ source $ZSH/oh-my-zsh.sh
  if [[ -n $SSH_CONNECTION ]]; then
    export EDITOR='vim'
  else
-   export EDITOR='mvim'
+   export EDITOR='nvim'
  fi
 
 # Compilation flags
@@ -125,10 +127,27 @@ alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 alias pip=/usr/local/bin/pip3
 
-
+##### FZF settings #####
 # Responding to .gitignore
 
-# Setting grep as the default source for fzf
-export FZF_DEFAULT_COMMAND='rg --files --no-ignore-vcs --hidden'
+# Setting fd as the default source for fzf
+export FZF_DEFAULT_COMMAND='fd --type f -H'
+
 # To apply the command to CTRL-T as well
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+
+# Options for fzf
+export FZF_DEFAULT_OPTS="--ansi --preview 'bat --color=always --style=header,grid --line-range :300 {}' --preview-window right:hidden --bind=ctrl-p:toggle-preview"
+#--preview='cat {}' --bind=ctrl-r:toggle-preview
+#--bind="space:toggle-preview"
+#
+#
+# Function to use fzf to cd
+cd_with_fzf() {
+    cd $HOME && cd "$(fd -t d | fzf)"
+}
+bindkey -s '^F' 'cd_with_fzf^M'
+# Key bindings
+#bindkey -s 'C-c'
+
+bindkey -s '^E' 'nvim $(fzf)^M'
