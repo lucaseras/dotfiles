@@ -58,18 +58,73 @@ nnoremap tn :tabnew<CR>
 " ================ General Config ====================
 set nocompatible
 
-" enable syntax highlighting
-syntax on
-
 colorscheme gruvbox
 set background=dark
 let g:gruvbox_constrast_dark = "hard"
 colorscheme gruvbox
 
-
 let g:airline_powerline_fonts = 1
-
 let g:sml_smlnj_executable ='/usr/local/smlnj/bin/sml'
+
+" General reasonable settings (a lot from Tim Pope's sensible.vim)
+set autoindent
+set backspace=indent,eol,start
+set complete-=1
+set smarttab
+set nrformats-=octal
+if !has('nvim') && &ttimeoutlen == -1
+  set ttimeout
+  set ttimeoutlen=100
+endif
+set incsearch
+set laststatus=2
+set ruler
+set wildmenu
+if !&scrolloff
+    set scrolloff=1
+endif
+if !&sidescrolloff
+    set sidescrolloff=5
+endif
+set display+=lastline
+if &encoding ==# 'latin1' && has('gui_running')
+  set encoding=utf-8
+endif
+if &listchars ==# 'eol:$'
+  set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
+endif
+if v:version > 703 || v:version == 703 && has("patch541")
+  set formatoptions+=j " Delete comment character when joining commented lines
+endif
+if has('path_extra')
+  setglobal tags-=./tags tags-=./tags; tags^=./tags;
+endif
+set autoread
+if &history < 1000
+  set history=1000
+endif
+if &tabpagemax < 50
+  set tabpagemax=50
+endif
+if !empty(&viminfo)
+  set viminfo^=!
+endif
+set sessionoptions-=options
+set viewoptions-=options
+
+" Allow color schemes to do bright colors without forcing bold.
+if &t_Co == 8 && $TERM !~# '^Eterm'
+  set t_Co=16
+endif
+
+if empty(mapcheck('<C-U>', 'i'))
+  inoremap <C-U> <C-G>u<C-U>
+endif
+if empty(mapcheck('<C-W>', 'i'))
+  inoremap <C-W> <C-G>u<C-W>
+endif
+
+" vim:set ft=vim et sw=2:
 
 " ================ FZF settings ===================
 "set rtp+=/usr/local/opt/fzf

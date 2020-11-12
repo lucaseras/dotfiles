@@ -1,3 +1,8 @@
 {
-  "lastUpdate": 1604358516685
+  "lastUpdate": 1604358516685,
+  "extension": {
+    "coc-tabnine": {
+      "disabled": true
+    }
+  }
 }
