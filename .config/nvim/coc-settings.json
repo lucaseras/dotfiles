@@ -7,6 +7,7 @@
 "python.pythonPath": "python3",
 "coc.preferences.formatOnType": true,
 "coc.preferences.bracketEnterImprove":true,
+"javascript.suggest.autoImports":true,
 "python.autoComplete.extraPaths": [
   "${env:SPARK_HOME}/python",
   "${env:SPARK_HOME}/python/pyspark"

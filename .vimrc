@@ -13,8 +13,8 @@ Plug 'xavierd/clang_complete'
 Plug 'itchyny/calendar.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'plasticboy/vim-markdown'
-Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
+"Plug 'SirVer/ultisnips'
+"Plug 'honza/vim-snippets'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'NLKNguyen/papercolor-theme'
@@ -24,20 +24,31 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'haya14busa/is.vim'
 Plug 'mhinz/vim-startify'
 Plug 'yegappan/mru'
+Plug 'yuezk/vim-js'
+Plug 'maxmellon/vim-jsx-pretty'
+Plug 'HerringtonDarkholme/yats.vim'
+"Plug 'xolox/vim-misc'
+"Plug 'xolox/vim-notes'
 call plug#end()
 
 
 
 " ================ Main maps ====================
-" Leave the editor with Ctrl-q (KDE): Write all changed buffers and exit Vim
-nnoremap  <C-q>    :wq<CR>
+" set <leader> to be <SPACE>
+let mapleader = " "
 
+" Leave the editor with Ctrl-q (KDE): Write all changed buffers and exit Vim
+nnoremap <silent> <C-q>      :wq<CR>
+
+" update vim using this .vimrc file
+nmap <leader>sv :so $MYVIMRC<CR>
+
+" open .vimrc and init.vim
+nmap <silent> <leader>ev :e ~/.vimrc <CR> 
 
 " using jk rather than <ESC>
 inoremap jk <ESC>
 
-" set <leader> to be <SPACE>
-let mapleader = " "
 
 noremap <Leader>y "*y
 noremap <Leader>p "*p
@@ -137,14 +148,14 @@ nnoremap <silent> <Leader>f :Rg<CR>
 " find lines in file
 nnoremap <silent> <Leader>/ :BLines<CR>
 " look at git commit history
-nnoremap <silent> <Leader>g :Commits<CR>
+"nnoremap <silent> <Leader>g :Commits<CR>
 " open Fzfmru
 nnoremap <silent> <leader>m :FZFMru<CR>
 " see available commands
 nnoremap <silent> <Leader>c :Commands<CR>
 " open history of files
 "
-
+nnoremap <silent> <C-p> :GFiles<CR>
 " keybinds we can use during :FZF
 let g:fzf_action = {
   \ 'ctrl-t': 'tab split',
@@ -342,11 +353,6 @@ let python_highlight_all=1
 " turn on true color (works only with iTerm)
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 
-" update vim using this .vimrc file
-nmap <leader>sv :so $MYVIMRC<CR>
-
-" open .vimrc and init.vim
-nmap <silent> <leader>ev :e ~/.vimrc <CR> 
 
 " setting up tab completion 
 "set wildmode=longest,list,full
@@ -360,11 +366,23 @@ set guifont=Roboto\ Mono
 let g:clang_library_path='/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libclang.dylib'
 
 
-" got to definition 
-nmap <leader>gd <Plug>(coc-definition)
-nmap <leader>gr <Plug>(coc-references)
-nnoremap <C-p> :GFiles<CR>
+" ================ COC settings ===================
+set hidden
 
+"GoTo code navigation.
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
+
+" Use <c-space> to trigger completion.
+"if has('nvim')
+  "inoremap <silent><expr> <c-space> coc#refresh()
+"else
+  "inoremap <silent><expr> <c-@> coc#refresh()
+"endif
+
+autocmd FileType json syntax match Comment +\/\/.\+$+
 
 nnoremap <leader>d "_d
 xnoremap <leader>d "_d
