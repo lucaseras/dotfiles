@@ -9,14 +9,14 @@ Plug 'junegunn/fzf.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-fugitive'
 Plug 'preservim/nerdcommenter'
-Plug 'xavierd/clang_complete'
+"Plug 'xavierd/clang_complete'
 Plug 'itchyny/calendar.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'plasticboy/vim-markdown'
 "Plug 'SirVer/ultisnips'
 "Plug 'honza/vim-snippets'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
-Plug 'nathanaelkane/vim-indent-guides'
+"Plug 'nathanaelkane/vim-indent-guides'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'jez/vim-better-sml'
 Plug 'tpope/vim-surround'
@@ -31,7 +31,9 @@ Plug 'maxmellon/vim-jsx-pretty'
 "Plug 'xolox/vim-notes'
 call plug#end()
 
-
+if !has('nvim')
+    set ttymouse=xterm2
+endif
 
 " ================ Main maps ====================
 " set <leader> to be <SPACE>
@@ -83,7 +85,6 @@ nnoremap tn :tabnew<CR>
 " ================ General Config ====================
 set nocompatible
 
-colorscheme gruvbox
 set background=dark
 let g:gruvbox_constrast_dark = "hard"
 colorscheme gruvbox
