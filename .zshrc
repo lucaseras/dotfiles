@@ -97,7 +97,7 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-
+export KEYTIMEOUT=1
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"

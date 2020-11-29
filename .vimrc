@@ -26,7 +26,7 @@ Plug 'mhinz/vim-startify'
 Plug 'yegappan/mru'
 Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'
-Plug 'HerringtonDarkholme/yats.vim'
+"Plug 'HerringtonDarkholme/yats.vim'
 "Plug 'xolox/vim-misc'
 "Plug 'xolox/vim-notes'
 call plug#end()
@@ -37,8 +37,22 @@ call plug#end()
 " set <leader> to be <SPACE>
 let mapleader = " "
 
-" Leave the editor with Ctrl-q (KDE): Write all changed buffers and exit Vim
-nnoremap <silent> <C-q>      :wq<CR>
+" move between tabs with numbers
+noremap <leader>1 1gt
+noremap <leader>2 2gt
+noremap <leader>3 3gt
+noremap <leader>4 4gt
+noremap <leader>5 5gt
+noremap <leader>6 6gt
+noremap <leader>7 7gt
+noremap <leader>8 8gt
+noremap <leader>9 9gt
+noremap <leader>0 :tablast<cr>
+
+
+" change tabs with CTRL-Q and CTRL-W
+"nnoremap <silent> <C-q> :tabprevious<CR>
+"nnoremap <silent> <C-w> :tabnext<CR>
 
 " update vim using this .vimrc file
 nmap <leader>sv :so $MYVIMRC<CR>
@@ -128,12 +142,12 @@ if &t_Co == 8 && $TERM !~# '^Eterm'
   set t_Co=16
 endif
 
-if empty(mapcheck('<C-U>', 'i'))
-  inoremap <C-U> <C-G>u<C-U>
-endif
-if empty(mapcheck('<C-W>', 'i'))
-  inoremap <C-W> <C-G>u<C-W>
-endif
+"if empty(mapcheck('<C-U>', 'i'))
+  "inoremap <C-U> <C-G>u<C-U>
+"endif
+"if empty(mapcheck('<C-W>', 'i'))
+  "inoremap <C-W> <C-G>u<C-W>
+"endif
 
 " vim:set ft=vim et sw=2:
 

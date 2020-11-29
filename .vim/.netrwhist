@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =4
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/Users/lucaseras/Developer/333-se/lecture-slides/6_React_Native'
+let g:netrw_dirhist_5='/Users/lucaseras/Developer/333-se/lecture-slides/6_React_Native/my-app'
 let g:netrw_dirhist_4='/Users/lucaseras/Developer/333-se-django-react-mobile/components'
 let g:netrw_dirhist_3='/Users/lucaseras/Developer/333-se-django-react-mobile'
 let g:netrw_dirhist_2='/Users/lucaseras/Developer'
@@ -8,5 +10,3 @@ let g:netrw_dirhist_0='/Users'
 let g:netrw_dirhist_9='/Users/lucaseras'
 let g:netrw_dirhist_8='/Users/lucaseras/Developer/333-se/lecture-slides/javaScriptTutorial'
 let g:netrw_dirhist_7='/Users/lucaseras/Developer/333-se-django-react-api/songrater'
-let g:netrw_dirhist_6='/Users/lucaseras/Developer/333-se-django-react-api'
-let g:netrw_dirhist_5='/Users/lucaseras/Developer/333-se-django-react-api/songrater'

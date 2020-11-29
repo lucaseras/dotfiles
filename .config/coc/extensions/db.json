@@ -1,7 +1,10 @@
 {
-  "lastUpdate": 1604358516685,
+  "lastUpdate": 1606506274714,
   "extension": {
     "coc-tabnine": {
+      "disabled": true
+    },
+    "coc-eslint": {
       "disabled": true
     }
   }
