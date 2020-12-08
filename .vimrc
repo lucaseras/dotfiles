@@ -18,17 +18,28 @@ Plug 'plasticboy/vim-markdown'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 "Plug 'nathanaelkane/vim-indent-guides'
 Plug 'NLKNguyen/papercolor-theme'
+Plug 'sonph/onehalf', {'rtp': 'vim/'}
 Plug 'jez/vim-better-sml'
 Plug 'tpope/vim-surround'
 Plug 'christoomey/vim-tmux-navigator'
+
+" incremental search improved
 Plug 'haya14busa/is.vim'
+"
 Plug 'mhinz/vim-startify'
 Plug 'yegappan/mru'
 Plug 'yuezk/vim-js'
+
+" easy motion with s-char-char
 Plug 'maxmellon/vim-jsx-pretty'
 "Plug 'HerringtonDarkholme/yats.vim'
 "Plug 'xolox/vim-misc'
 "Plug 'xolox/vim-notes'
+"Plug 'justinmk/vim-sneak'
+
+
+Plug 'easymotion/vim-easymotion'
+Plug 'unblevable/quick-scope'
 call plug#end()
 
 if !has('nvim')
@@ -52,9 +63,6 @@ noremap <leader>9 9gt
 noremap <leader>0 :tablast<cr>
 
 
-" change tabs with CTRL-Q and CTRL-W
-"nnoremap <silent> <C-q> :tabprevious<CR>
-"nnoremap <silent> <C-w> :tabnext<CR>
 
 " update vim using this .vimrc file
 nmap <leader>sv :so $MYVIMRC<CR>
@@ -64,6 +72,40 @@ nmap <silent> <leader>ev :e ~/.vimrc <CR>
 
 " using jk rather than <ESC>
 inoremap jk <ESC>
+
+" easymotion configs
+hi EasyMotionTarget guifg='#afff5f' gui=underline ctermfg=155 cterm=underline
+hi EasyMotionShade  ctermbg=none ctermfg=blue
+
+hi EasyMotionTarget2First ctermbg=none ctermfg=red
+hi EasyMotionTarget2Second ctermbg=none ctermfg=lightred
+
+hi EasyMotionMoveHL ctermbg=green ctermfg=black
+hi EasyMotionIncSearch ctermbg=green ctermfg=black
+
+
+
+"" sneak stuff
+"autocmd User SneakLeave highlight clear Sneak
+"let g:sneak#label = 1
+"let g:sneak#s_next = 1 
+"let g:sneak#f_reset = 1
+"let g:sneak#t_reset = 1
+"highlight Sneak guifg=black guibg=red ctermfg=black ctermbg=red
+"highlight SneakScope guifg=red guibg=blue ctermfg=red ctermbg=blue
+
+"quick-scope stuff
+let g:qs_highlight_on_keys = ['f', 'F', 't', 'T']
+" using sneak instead of f and i
+"map f <Plug>Sneak_f
+"map F <Plug>Sneak_F
+"map t <Plug>Sneak_t
+"map T <Plug>Sneak_T
+augroup qs_colors
+  autocmd!
+  autocmd ColorScheme * highlight QuickScopePrimary guifg='#afff5f' gui=underline ctermfg=81 cterm=underline
+  autocmd ColorScheme * highlight QuickScopeSecondary guifg='#5fffff ' gui=underline ctermfg=155 cterm=underline
+augroup END
 
 
 noremap <Leader>y "*y
@@ -85,9 +127,17 @@ nnoremap tn :tabnew<CR>
 " ================ General Config ====================
 set nocompatible
 
+
+" gruvbox stuff
 set background=dark
 let g:gruvbox_constrast_dark = "hard"
+let g:gruvbox_hls_cursor="blue"
 colorscheme gruvbox
+
+
+" onehalf stuff
+"colorscheme onehalfdark
+"let g:airline_theme='onehalfdark'
 
 let g:airline_powerline_fonts = 1
 let g:sml_smlnj_executable ='/usr/local/smlnj/bin/sml'
@@ -151,6 +201,11 @@ endif
 "endif
 
 " vim:set ft=vim et sw=2:
+
+"set incsearch
+"Use <C-L> to clear the highlighting of :set hlsearch.
+nnoremap <silent> <C-> :nohl<CR>
+
 
 " ================ FZF settings ===================
 "set rtp+=/usr/local/opt/fzf
