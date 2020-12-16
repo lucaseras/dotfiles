@@ -2,44 +2,88 @@
 " Creator: Lucas Eras Paiva
 
 call plug#begin('~/.local/share/nvim/plugged')
+"life-changing status bar at the bottom
 Plug 'vim-airline/vim-airline'
+
+"a complicated but handy auto-correct plugin
 Plug 'neoclide/coc.nvim', {'branch':'release'}
+
+
+"Fuzzy-finder for nvim
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+
+"better auto-pairing of parenthesis and whatnot
 Plug 'jiangmiao/auto-pairs'
+
+"a git wrapper so cool it should be illegal
+"do :G <command>
 Plug 'tpope/vim-fugitive'
+
+"great commenting plugin for multiple languages
+"do <Leader> cc to comment, <Leader> cu to uncomment
 Plug 'preservim/nerdcommenter'
+
+
 "Plug 'xavierd/clang_complete'
+"
+"a Calendar plugin that I never use but that is just cool
 Plug 'itchyny/calendar.vim'
+
+"the great nerdtree, I have it as C-N
 Plug 'scrooloose/nerdtree'
+
+"C-S opens a browser preview of the md file being edited
 Plug 'plasticboy/vim-markdown'
-"Plug 'SirVer/ultisnips'
-"Plug 'honza/vim-snippets'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 "Plug 'nathanaelkane/vim-indent-guides'
+"Plug 'SirVer/ultisnips'
+"Plug 'honza/vim-snippets'
+
+"just a random theme
 Plug 'NLKNguyen/papercolor-theme'
+
+"a different theme
 Plug 'sonph/onehalf', {'rtp': 'vim/'}
+
+"stuff for SML
 Plug 'jez/vim-better-sml'
+
+"amazing surround plugin, wow! Tpope popping out
+"ysw" = you-surround-word-with"
+"cs` = change-surround-to`
 Plug 'tpope/vim-surround'
 Plug 'christoomey/vim-tmux-navigator'
 
 " incremental search improved
 Plug 'haya14busa/is.vim'
-"
+
+"startup screen
 Plug 'mhinz/vim-startify'
+
+"most-recently-used plugin (:mru)
 Plug 'yegappan/mru'
+
+" adding stuff about js
 Plug 'yuezk/vim-js'
 
-" easy motion with s-char-char
 Plug 'maxmellon/vim-jsx-pretty'
 "Plug 'HerringtonDarkholme/yats.vim'
 "Plug 'xolox/vim-misc'
 "Plug 'xolox/vim-notes'
+
+
+
 "Plug 'justinmk/vim-sneak'
 
-
+"<leader><leader>w and whatnot
 Plug 'easymotion/vim-easymotion'
+
+" really cool highlighting when doing f or t
 Plug 'unblevable/quick-scope'
+
+
+Plug 'mbbill/undotree'
 call plug#end()
 
 if !has('nvim')
@@ -74,6 +118,12 @@ nmap <silent> <leader>ev :e ~/.vimrc <CR>
 inoremap jk <ESC>
 
 " easymotion configs
+
+"nmap s <Plug>(easymotion-s2)
+"nmap t <Plug>(easymotion-t2)
+"map  / <Plug>(easymotion-sn)
+"omap / <Plug>(easymotion-tn)
+
 hi EasyMotionTarget guifg='#afff5f' gui=underline ctermfg=155 cterm=underline
 hi EasyMotionShade  ctermbg=none ctermfg=blue
 
@@ -119,14 +169,16 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
-" tab maps
-nnoremap th :tabprev<CR>
-nnoremap tl :tabnext<CR>
-nnoremap tn :tabnew<CR>
+"toggle undo tree map (plugin)
+nnoremap <Leader>u :UndotreeToggle<CR>
 
 " ================ General Config ====================
 set nocompatible
 
+" tab maps
+nnoremap th :tabprev<CR>
+nnoremap tl :tabnext<CR>
+nnoremap tn :tabnew<CR>
 
 " gruvbox stuff
 set background=dark
@@ -204,7 +256,7 @@ endif
 
 "set incsearch
 "Use <C-L> to clear the highlighting of :set hlsearch.
-nnoremap <silent> <C-> :nohl<CR>
+"nnoremap <silent> <C--> :nohl<CR>
 
 
 " ================ FZF settings ===================
