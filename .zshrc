@@ -156,3 +156,4 @@ bindkey -s '^F' 'cd_with_fzf^M'
 
 bindkey -s '^E' 'nvim $(fzf)^M'
 export TERM=xterm-256color
+[ -f "/Users/lucaseras/.ghcup/env" ] && source "/Users/lucaseras/.ghcup/env" # ghcup-env

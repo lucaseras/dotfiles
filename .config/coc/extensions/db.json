@@ -6,6 +6,12 @@
     },
     "coc-eslint": {
       "disabled": true
+    },
+    "coc-tsserver": {
+      "disabled": true
+    },
+    "coc-python": {
+      "disabled": false
     }
   }
 }

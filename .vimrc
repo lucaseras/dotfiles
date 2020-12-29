@@ -8,6 +8,11 @@ Plug 'vim-airline/vim-airline'
 "a complicated but handy auto-correct plugin
 Plug 'neoclide/coc.nvim', {'branch':'release'}
 
+Plug 'autozimu/LanguageClient-neovim', {
+    \ 'branch': 'next',
+    \ 'do': 'bash install.sh'
+    \ }
+
 
 "Fuzzy-finder for nvim
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -37,8 +42,9 @@ Plug 'scrooloose/nerdtree'
 Plug 'plasticboy/vim-markdown'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 "Plug 'nathanaelkane/vim-indent-guides'
-"Plug 'SirVer/ultisnips'
-"Plug 'honza/vim-snippets'
+
+"Installing snippets
+Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 
 "just a random theme
 Plug 'NLKNguyen/papercolor-theme'
@@ -163,10 +169,16 @@ if !has('nvim')
     set ttymouse=xterm2
 endif
 
+" enable plugins and indent
+filetype plugin on
+filetype indent on
+
+" set visual bell instead of beeping
+set visualbell
 " tab maps
-nnoremap th :tabprev<CR>
-nnoremap tl :tabnext<CR>
-nnoremap tn :tabnew<CR>
+nnoremap <leader>th :tabprev<CR>
+nnoremap <leader>l :tabnext<CR>
+nnoremap <leader>n :tabnew<CR>
 
 " gruvbox stuff
 set background=dark
@@ -233,19 +245,73 @@ if &t_Co == 8 && $TERM !~# '^Eterm'
   set t_Co=16
 endif
 
-"if empty(mapcheck('<C-U>', 'i'))
-  "inoremap <C-U> <C-G>u<C-U>
-"endif
-"if empty(mapcheck('<C-W>', 'i'))
-  "inoremap <C-W> <C-G>u<C-W>
-"endif
 
-" vim:set ft=vim et sw=2:
+set undofile " maintain undo history
+set undodir=~/.vim/undodir
 
-"set incsearch
+" set tab spacing
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
+set noswapfile
+
+hi EasyMotionTarget guifg='#afff5f' gui=underline ctermfg=155 cterm=underline
+hi EasyMotionShade  ctermbg=none ctermfg=blue
+
+hi EasyMotionTarget2First ctermbg=none ctermfg=red
+hi EasyMotionTarget2Second ctermbg=none ctermfg=lightred
+
+hi EasyMotionMoveHL ctermbg=green ctermfg=black
+hi EasyMotionIncSearch ctermbg=green ctermfg=black
+set splitright
+set splitbelow
+" show line numbers
+set number
+
+" regexp highlighting turned off :)
+"set nohlsearch
+
+" when using the >> or << commands, shift lines by 4 spaces (python friendly)
+"set shiftwidth=4
+
+" wraplines in 80 chars long
+set textwidth=80
+
+" create a line that tells where 80 chars long is
+"set colorcolumn=81
+
+" have lines above and below current line
+set scrolloff=10
+
+" show a visual line under the cursor's current line
+" set cursorline
+
+" show the matching part of the pair fro []. {} and ()
+"set showmatch
+
+" enable all Python syntax highlighting features
+"let python_highlight_all=1
+
+" turn on true color (works only with iTerm)
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+
+
+" setting up tab completion 
+"set wildmode=longest,list,full
+"set wildmenu
+
+
+"set guifont=Menlo\ Regular:h14
+set guifont=Roboto\ Mono
+
+" set clang path
+let g:clang_library_path='/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libclang.dylib'
+set hidden
+
+""set incsearch
 "Use <C-L> to clear the highlighting of :set hlsearch.
 "nnoremap <silent> <C--> :nohl<CR>
-
 " ================ FZF settings ===================
 "set rtp+=/usr/local/opt/fzf
 " open buffers
@@ -297,151 +363,12 @@ set grepprg=rg\ --vimgrep\ --smart-case\ --follow
 command! -bang -nargs=* Rg call fzf#vim#grep("rg --column --line-number --no-heading --color=always --smart-case ".shellescape(<q-args>), 1, {'options': '--delimiter : --nth 4..'}, <bang>0)
 
 " ================ Snippet settings ===================
-" Trigger configuration. You need to change this to something else than <tab> if you use https://github.com/Valloric/YouCompleteMe.
+" Trigger configuration. Has to be changed because of COC (unless I'm using
+" COCSnippets)
 let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-
+imap <C-l> <Plug>(coc-snippets-expand)
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
-
-" ================ General settings ===================
-"if has('nvim')
-  "tnoremap <Esc> <C-\><C-n>
-  "tnoremap <M-[> <Esc>
-  "tnoremap <C-v><Esc> <Esc>
-"endif
-"autocmd StdinReadPre * let s:std_in=1
-"autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-
-" enable plugins and indent
-filetype plugin on
-filetype indent on
-
-" set visual bell instead of beeping
-set visualbell
-
-" set f"" Autofolding .vimrc
-" see http://vimcasts.org/episodes/writing-a-custom-fold-expression/
-""" defines a foldlevel for each line of code
-function! VimFolds(lnum)
-  let s:thisline = getline(a:lnum)
-  if match(s:thisline, '^"" ') >= 0
-    return '>2'
-  endif
-  if match(s:thisline, '^""" ') >= 0
-    return '>3'
-  endif
-  let s:two_following_lines = 0
-  if line(a:lnum) + 2 <= line('$')
-    let s:line_1_after = getline(a:lnum+1)
-    let s:line_2_after = getline(a:lnum+2)
-    let s:two_following_lines = 1
-  endif
-  if !s:two_following_lines
-      return '='
-    endif
-  else
-    if (match(s:thisline, '^" =') >= 0) 
-      return '>1'
-    else
-      return '='
-    endif
-  endif
-endfunction
-
-""" defines a foldtext
-"function! VimFoldText()
-  "" handle special case of normal comment first
-  "let s:info = '('.string(v:foldend-v:foldstart).' l)'
-  "if v:foldlevel == 1
-    "let s:line = ' ◇ '.getline(v:foldstart+1)[3:-2]
-  "elseif v:foldlevel == 2
-    "let s:line = '   ●  '.getline(v:foldstart)[3:]
-  "elseif v:foldlevel == 3
-    "let s:line = '     ▪ '.getline(v:foldstart)[4:]
-  "endif
-  "if strwidth(s:line) > 80 - len(s:info) - 3
-    "return s:line[:79-len(s:info)-3+len(s:line)-strwidth(s:line)].'...'.s:info
-  "else
-    "return s:line.repeat(' ', 80 - strwidth(s:line) - len(s:info)).s:info
-  "endif
-"endfunction
-
-" set foldsettings automatically for vim files
-augroup fold_vimrc
-autocmd!
-autocmd FileType vim 
-               \ setlocal foldmethod=expr |
-               \ setlocal foldexpr=VimFolds(v:lnum) |
-
-augroup END
-
-"set foldmethod=indent   " fold based on indent
-
-set foldnestmax=10
-"set nofoldenable
-set foldlevel=2
-
-" set tab spacing
-set tabstop=4
-set shiftwidth=4
-set expandtab
-
-set noswapfile
-
-hi EasyMotionTarget guifg='#afff5f' gui=underline ctermfg=155 cterm=underline
-hi EasyMotionShade  ctermbg=none ctermfg=blue
-
-hi EasyMotionTarget2First ctermbg=none ctermfg=red
-hi EasyMotionTarget2Second ctermbg=none ctermfg=lightred
-
-hi EasyMotionMoveHL ctermbg=green ctermfg=black
-hi EasyMotionIncSearch ctermbg=green ctermfg=black
-set splitright
-set splitbelow
-" show line numbers
-set number
-
-" regexp highlighting turned off :)
-"set nohlsearch
-
-" when using the >> or << commands, shift lines by 4 spaces (python friendly)
-"set shiftwidth=4
-
-" wraplines in 80 chars long
-set textwidth=80
-
-" create a line that tells where 80 chars long is
-"set colorcolumn=81
-
-" have lines above and below current line
-set scrolloff=10
-
-" show a visual line under the cursor's current line
-" set cursorline
-
-" show the matching part of the pair fro []. {} and ()
-"set showmatch
-
-" enable all Python syntax highlighting features
-let python_highlight_all=1
-
-" turn on true color (works only with iTerm)
-let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-
-
-" setting up tab completion 
-"set wildmode=longest,list,full
-"set wildmenu
-
-
-"set guifont=Menlo\ Regular:h14
-set guifont=Roboto\ Mono
-
-" set clang path
-let g:clang_library_path='/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libclang.dylib'
-set hidden
 
 " ================ Markdown Configs ==================== 
 "set to 1, nvim will open the preview window after entering the markdown buffer
@@ -531,9 +458,17 @@ let g:mkdp_port = ''
 " ${name} will be replace with the file name
 let g:mkdp_page_title = '「${name}」'
 
-" example
-nmap <C-s> <Plug>MarkdownPreviewToggle
-
+" toggle md preview
+"nmap <C-s> <Plug>MarkdownPreviewToggle
+" ================ Haskell settings ===================
+"nnoremap <F5> :call LanguageClient_contextMenu()<CR>
+"map <Leader>lk :call LanguageClient#textDocument_hover()<CR>
+"map <Leader>lg :call LanguageClient#textDocument_definition()<CR>
+"map <Leader>lr :call LanguageClient#textDocument_rename()<CR>
+"map <Leader>lf :call LanguageClient#textDocument_formatting()<CR>
+"map <Leader>lb :call LanguageClient#textDocument_references()<CR>
+"map <Leader>la :call LanguageClient#textDocument_codeAction()<CR>
+"map <Leader>ls :call LanguageClient#textDocument_documentSymbol()<CR>
 " ================ COC settings ===================
 "GoTo code navigation.
 nmap <silent> gd <Plug>(coc-definition)
@@ -575,3 +510,68 @@ let g:NERDTreeDirArrowCollapsible = '▾'
 " open NerdTree if starting vim in directory
 "autocmd StdinReadPre * let s:std_in=1
 "autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | exe 'cd '.argv()[0] | endif
+" ================ Folding settings ===================
+
+" set f"" Autofolding .vimrc
+" see http://vimcasts.org/episodes/writing-a-custom-fold-expression/
+""" defines a foldlevel for each line of code
+function! VimFolds(lnum)
+  let s:thisline = getline(a:lnum)
+  if match(s:thisline, '^"" ') >= 0
+    return '>2'
+  endif
+  if match(s:thisline, '^""" ') >= 0
+    return '>3'
+  endif
+  let s:two_following_lines = 0
+  if line(a:lnum) + 2 <= line('$')
+    let s:line_1_after = getline(a:lnum+1)
+    let s:line_2_after = getline(a:lnum+2)
+    let s:two_following_lines = 1
+  endif
+  if !s:two_following_lines
+      return '='
+    endif
+  else
+    if (match(s:thisline, '^" =') >= 0) 
+      return '>1'
+    else
+      return '='
+    endif
+  endif
+endfunction
+
+""" defines a foldtext
+"function! VimFoldText()
+  "" handle special case of normal comment first
+  "let s:info = '('.string(v:foldend-v:foldstart).' l)'
+  "if v:foldlevel == 1
+    "let s:line = ' ◇ '.getline(v:foldstart+1)[3:-2]
+  "elseif v:foldlevel == 2
+    "let s:line = '   ●  '.getline(v:foldstart)[3:]
+  "elseif v:foldlevel == 3
+    "let s:line = '     ▪ '.getline(v:foldstart)[4:]
+  "endif
+  "if strwidth(s:line) > 80 - len(s:info) - 3
+    "return s:line[:79-len(s:info)-3+len(s:line)-strwidth(s:line)].'...'.s:info
+  "else
+    "return s:line.repeat(' ', 80 - strwidth(s:line) - len(s:info)).s:info
+  "endif
+"endfunction
+
+" set foldsettings automatically for vim files
+augroup fold_vimrc
+autocmd!
+autocmd FileType vim 
+               \ setlocal foldmethod=expr |
+               \ setlocal foldexpr=VimFolds(v:lnum) |
+
+augroup END
+
+"set foldmethod=indent   " fold based on indent
+
+set foldnestmax=10
+"set nofoldenable
+set foldlevel=2
+
+
