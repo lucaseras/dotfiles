@@ -13,7 +13,6 @@ Plug 'autozimu/LanguageClient-neovim', {
     \ 'do': 'bash install.sh'
     \ }
 
-
 "Fuzzy-finder for nvim
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'

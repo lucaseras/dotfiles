@@ -1077,7 +1077,7 @@
         "sysPrefix": "/usr/local/Cellar/python@3.9/3.9.0_1/Frameworks/Python.framework/Versions/3.9",
         "fileHash": "f9991bfb08f338d2ed22053f341cbbe4e505eee615e78ce7f78bf433df352aff6187f1bac2c0ca24d15bcd3ed6f249f4870162bf39c35ee437d06018f2bdae2e"
       },
-      "expiry": 1609349882516
+      "expiry": 1609454269954
     },
     "/usr/local/opt/python@3.9/bin/python3.9.interpreter.Details.v7": {
       "data": {
@@ -1104,17 +1104,18 @@
           "sysPrefix": "/usr/local/Cellar/python@3.9/3.9.0_1/Frameworks/Python.framework/Versions/3.9",
           "fileHash": "f9991bfb08f338d2ed22053f341cbbe4e505eee615e78ce7f78bf433df352aff6187f1bac2c0ca24d15bcd3ed6f249f4870162bf39c35ee437d06018f2bdae2e",
           "type": "Unknown",
-          "displayName": "Python 3.9.0 64-bit"
+          "displayName": "Python 3.9.0 64-bit",
+          "__store": true
         }
       },
-      "expiry": 1609349882585
+      "expiry": 1609454269915
     },
     "/usr/local/opt/python@3.9/bin/python3.9.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 3.9.0 64-bit",
         "hash": "f9991bfb08f338d2ed22053f341cbbe4e505eee615e78ce7f78bf433df352aff6187f1bac2c0ca24d15bcd3ed6f249f4870162bf39c35ee437d06018f2bdae2e-91e7939d4ff35d2aa6b3c1afa74a1ffd"
       },
-      "expiry": 1609349882568
+      "expiry": 1609454269957
     },
     "/usr/local/bin/python3.8.interpreter.displayName.v7": {
       "data": {
@@ -1717,6 +1718,12 @@
   "coc-python|/Users/lucaseras/Developer/practice": {
     "INTERPRETERS_CACHE_v3_PipEnvService:8bca702e43103f7528f613ec1530ddc8": [],
     "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:8bca702e43103f7528f613ec1530ddc8": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lucaseras/Developer/checkSpanish": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:f75b6b97662a2e8a11c7092bb93eeb36": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:f75b6b97662a2e8a11c7092bb93eeb36": [],
     "INTERPRETERS_CACHE_v3_PipEnvService": [],
     "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
   }
