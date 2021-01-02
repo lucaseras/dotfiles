@@ -54,7 +54,7 @@ Plug 'sonph/onehalf', {'rtp': 'vim/'}
 "stuff for SML
 Plug 'jez/vim-better-sml'
 
-"amazing surround plugin, wow! Tpope popping out
+"amazing surround plugin, wow! 
 "ysw" = you-surround-word-with"
 "cs` = change-surround-to`
 Plug 'tpope/vim-surround'
