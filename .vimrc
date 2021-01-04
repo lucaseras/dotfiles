@@ -48,6 +48,12 @@ Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 "just a random theme
 Plug 'NLKNguyen/papercolor-theme'
 
+"molokai theme
+Plug 'tomasr/molokai'
+
+"dracula theme
+Plug 'dracula/vim'
+
 "a different theme
 Plug 'sonph/onehalf', {'rtp': 'vim/'}
 
@@ -171,9 +177,11 @@ endif
 " enable plugins and indent
 filetype plugin on
 filetype indent on
+syntax on
 
 " set visual bell instead of beeping
 set visualbell
+
 " tab maps
 nnoremap <leader>th :tabprev<CR>
 nnoremap <leader>l :tabnext<CR>
@@ -186,14 +194,37 @@ let g:gruvbox_hls_cursor="blue"
 colorscheme gruvbox
 
 
-" onehalf stuff
+"onehalfdark
+"set t_Co=256
 "colorscheme onehalfdark
 "let g:airline_theme='onehalfdark'
+
+"dracula theme
+
+if exists('+termguicolors')
+  let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+  let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+  set termguicolors
+endif
+
+
+"set guifont=Menlo\ Regular:h14
+set guifont=Roboto\ Mono
+
 
 let g:airline_powerline_fonts = 1
 let g:sml_smlnj_executable ='/usr/local/smlnj/bin/sml'
 
+" wraplines in 80 chars long
+set textwidth=80
+
+" have lines above and below current line
+set scrolloff=10
+
 " General reasonable settings (a lot from Tim Pope's sensible.vim)
+set splitright
+set splitbelow
+set number
 set autoindent
 set backspace=indent,eol,start
 set complete-=1
@@ -204,6 +235,7 @@ if !has('nvim') && &ttimeoutlen == -1
   set ttimeoutlen=100
 endif
 set incsearch
+set hidden
 set laststatus=2
 set ruler
 set wildmenu
@@ -263,10 +295,6 @@ hi EasyMotionTarget2Second ctermbg=none ctermfg=lightred
 
 hi EasyMotionMoveHL ctermbg=green ctermfg=black
 hi EasyMotionIncSearch ctermbg=green ctermfg=black
-set splitright
-set splitbelow
-" show line numbers
-set number
 
 " regexp highlighting turned off :)
 "set nohlsearch
@@ -274,22 +302,16 @@ set number
 " when using the >> or << commands, shift lines by 4 spaces (python friendly)
 "set shiftwidth=4
 
-" wraplines in 80 chars long
-set textwidth=80
-
 " create a line that tells where 80 chars long is
 "set colorcolumn=81
 
-" have lines above and below current line
-set scrolloff=10
-
 " show a visual line under the cursor's current line
-" set cursorline
-
+"set cursorline
+"
 " show the matching part of the pair fro []. {} and ()
 "set showmatch
 
-" enable all Python syntax highlighting features
+" enable all Python syntax highlighting features (bad idea)
 "let python_highlight_all=1
 
 " turn on true color (works only with iTerm)
@@ -300,17 +322,9 @@ let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 "set wildmode=longest,list,full
 "set wildmenu
 
-
-"set guifont=Menlo\ Regular:h14
-set guifont=Roboto\ Mono
-
 " set clang path
 let g:clang_library_path='/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libclang.dylib'
-set hidden
 
-""set incsearch
-"Use <C-L> to clear the highlighting of :set hlsearch.
-"nnoremap <silent> <C--> :nohl<CR>
 " ================ FZF settings ===================
 "set rtp+=/usr/local/opt/fzf
 " open buffers
@@ -496,24 +510,11 @@ inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 map <C-n> :NERDTreeToggle<CR>
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
-
-" open NerdTree automatically if no files are specified
-"autocmd StdinReadPre * let s:std_in=1
-"autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-
-
-" do not open NerdTree if using source
-"autocmd StdinReadPre * let s:std_in=1
-"autocmd VimEnter * if argc() == 0 && !exists("s:std_in") && v:this_session == "" | NERDTree | endif
-
-" open NerdTree if starting vim in directory
-"autocmd StdinReadPre * let s:std_in=1
-"autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | exe 'cd '.argv()[0] | endif
 " ================ Folding settings ===================
 
 " set f"" Autofolding .vimrc
 " see http://vimcasts.org/episodes/writing-a-custom-fold-expression/
-""" defines a foldlevel for each line of code
+" defines a foldlevel for each line of code
 function! VimFolds(lnum)
   let s:thisline = getline(a:lnum)
   if match(s:thisline, '^"" ') >= 0
@@ -540,7 +541,7 @@ function! VimFolds(lnum)
   endif
 endfunction
 
-""" defines a foldtext
+" defines a foldtext
 "function! VimFoldText()
   "" handle special case of normal comment first
   "let s:info = '('.string(v:foldend-v:foldstart).' l)'
