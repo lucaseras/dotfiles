@@ -7,9 +7,16 @@
 "python.pythonPath": "python3",
 "coc.preferences.formatOnType": true,
 "coc.preferences.bracketEnterImprove":true,
-"javascript.suggest.autoImports":true,
 "python.autoComplete.extraPaths": [
   "${env:SPARK_HOME}/python",
   "${env:SPARK_HOME}/python/pyspark"
-]
+],
+"languageserver": {
+    "haskell": {
+      "command": "haskell-language-server-wrapper",
+      "args": ["--lsp"],
+      "rootPatterns": ["*.cabal", "stack.yaml", "cabal.project", "package.yaml", "hie.yaml"],
+      "filetypes": ["haskell", "lhaskell"]
+    }
+  }
 }
