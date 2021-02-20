@@ -45,7 +45,7 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': 
 "Plug 'nathanaelkane/vim-indent-guides'
 
 "Installing snippets
-Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
+"Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 
 "just a random theme
 Plug 'NLKNguyen/papercolor-theme'
@@ -84,8 +84,6 @@ Plug 'maxmellon/vim-jsx-pretty'
 "Plug 'HerringtonDarkholme/yats.vim'
 "Plug 'xolox/vim-misc'
 "Plug 'xolox/vim-notes'
-
-
 
 "Plug 'justinmk/vim-sneak'
 
@@ -165,10 +163,10 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-tnoremap <C-J> <C-\><C-n><C-W><C-J>
-tnoremap <C-K> <C-\><C-n><C-W><C-K>
-tnoremap <C-L> <C-\><C-n><C-W><C-L>
-tnoremap <C-H> <C-\><C-n><C-W><C-H>
+"tnoremap <C-J> <C-\><C-n><C-W><C-J>
+"tnoremap <C-K> <C-\><C-n><C-W><C-K>
+"tnoremap <C-L> <C-\><C-n><C-W><C-L>
+"tnoremap <C-H> <C-\><C-n><C-W><C-H>
 "toggle undo tree map (plugin)
 nnoremap <Leader>u :UndotreeToggle<CR>
 
@@ -198,6 +196,12 @@ let g:gruvbox_constrast_dark = "hard"
 let g:gruvbox_hls_cursor="blue"
 colorscheme gruvbox
 
+" Figure out the system Python for Neovim.
+if exists("$VIRTUAL_ENV")
+    let g:python3_host_prog=substitute(system("which -a python3 | head -n2 | tail -n1"), "\n", '', 'g')
+else
+    let g:python3_host_prog=substitute(system("which python3"), "\n", '', 'g')
+endif
 
 "onehalfdark
 "set t_Co=256
@@ -216,7 +220,7 @@ endif
 "set guifont=Menlo\ Regular:h14
 set guifont=Roboto\ Mono
 
-
+let g:airline_extensions = []
 let g:airline_powerline_fonts = 1
 let g:sml_smlnj_executable ='/usr/local/smlnj/bin/sml'
 
@@ -280,7 +284,6 @@ set viewoptions-=options
 if &t_Co == 8 && $TERM !~# '^Eterm'
   set t_Co=16
 endif
-
 
 set undofile " maintain undo history
 set undodir=~/.vim/undodir
@@ -393,10 +396,39 @@ command! -bang -nargs=* Rg call fzf#vim#grep("rg --column --line-number --no-hea
 " ================ Snippet settings ===================
 " Trigger configuration. Has to be changed because of COC (unless I'm using
 " COCSnippets)
-let g:UltiSnipsExpandTrigger="<tab>"
-"imap <C-l> <Plug>(coc-snippets-expand)
-" If you want :UltiSnipsEdit to split your window.
-let g:UltiSnipsEditSplit="vertical"
+" Use <C-l> for trigger snippet expand.
+imap <C-l> <Plug>(coc-snippets-expand)
+
+" Use <C-j> for select text for visual placeholder of snippet.
+vmap <C-j> <Plug>(coc-snippets-select)
+
+" Use <C-j> for jump to next placeholder, it's default of coc.nvim
+let g:coc_snippet_next = '<c-j>'
+
+" Use <C-k> for jump to previous placeholder, it's default of coc.nvim
+let g:coc_snippet_prev = '<c-k>'
+" Use <C-j> for both expand and jump (make expand higher priority.)
+"imap <C-j> <Plug>(coc-snippets-expand-jump)
+" ================ COC settings ===================
+"GoTo code navigation.
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
+ 
+" use tab and shif-tab to move in the auto-complete list
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+
+
+autocmd FileType json syntax match Comment +\/\/.\+$+
+
+
+nnoremap <leader>d "_d
+xnoremap <leader>d "_d
+xnoremap <leader>p "_dP
+
+
 
 " ================ Markdown Configs ==================== 
 "set to 1, nvim will open the preview window after entering the markdown buffer
@@ -497,30 +529,6 @@ let g:mkdp_page_title = '「${name}」'
 "map <Leader>lb :call LanguageClient#textDocument_references()<CR>
 "map <Leader>la :call LanguageClient#textDocument_codeAction()<CR>
 "map <Leader>ls :call LanguageClient#textDocument_documentSymbol()<CR>
-" ================ COC settings ===================
-"GoTo code navigation.
-nmap <silent> gd <Plug>(coc-definition)
-nmap <silent> gy <Plug>(coc-type-definition)
-nmap <silent> gi <Plug>(coc-implementation)
-nmap <silent> gr <Plug>(coc-references)
-
-" Use <c-space> to trigger completion.
-"if has('nvim')
-  "inoremap <silent><expr> <c-space> coc#refresh()
-"else
-  "inoremap <silent><expr> <c-@> coc#refresh()
-"endif
-
-autocmd FileType json syntax match Comment +\/\/.\+$+
-
-nnoremap <leader>d "_d
-xnoremap <leader>d "_d
-xnoremap <leader>p "_dP
-
-
-inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
-inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
-
 " ================ NerdTree Configs ====================
 map <C-n> :NERDTreeToggle<CR>
 let g:NERDTreeDirArrowExpandable = '▸'
