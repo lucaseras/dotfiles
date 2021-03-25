@@ -95,6 +95,13 @@ Plug 'unblevable/quick-scope'
 
 " cool undotree, access with <leader>u
 Plug 'mbbill/undotree'
+
+" html and css editing shenanigans with <C-y>,
+Plug 'mattn/emmet-vim'
+
+" tex files in vim
+Plug 'lervag/vimtex'
+
 call plug#end()
 
 " ================ Main maps ====================
@@ -177,6 +184,7 @@ if !has('nvim')
     set ttymouse=xterm2
 endif
 
+let g:tex_flavor = 'latex'
 " enable plugins and indent
 filetype plugin on
 filetype indent on
@@ -420,6 +428,10 @@ nmap <silent> gr <Plug>(coc-references)
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
+" Add (Neo)Vim's native statusline support.
+" NOTE: Please see `:h coc-status` for integrations with external plugins that
+" provide custom statusline: lightline.vim, vim-airline.
+set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 
 autocmd FileType json syntax match Comment +\/\/.\+$+
 
