@@ -15,6 +15,7 @@ fi
 # Path to your oh-my-zsh installation.
 alias python=/usr/local/bin/python3
 alias v=/usr/local/bin/nvim
+alias tree='(){tree -C};'
 export ZSH="/Users/lucaseras/.oh-my-zsh"
 export PATH=/usr/local/smlnj/bin:"$PATH"
 export PATH=$PATH:$HOME/Library/Python/3.9/bin
