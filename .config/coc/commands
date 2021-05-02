@@ -1,6 +1,13 @@
+python.enableLinting
+snippets.editSnippets
+snippets.openSnippetFiles
+python.setLinter
+python.upgradePythonLanguageServer
+python.setInterpreter
+python.runLinting
+workspace.workspaceFolders
 json.retryResolveSchema
 tabnine.openConfig
 python.updateSparkLibrary
 python.viewOutput
-python.setInterpreter
 python.startREPL

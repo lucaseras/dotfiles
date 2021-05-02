@@ -23,7 +23,7 @@
         "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
         "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
       },
-      "expiry": 1615662233510
+      "expiry": 1619987840921
     },
     "/usr/bin/python2.v3": {
       "data": {
@@ -48,12 +48,1866 @@
         "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
         "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
       },
-      "expiry": 1615662233511
-    }
-  }
-}4e4c5179e4"
+      "expiry": 1619987840828
+    },
+    "INTERPRETERS_CACHE_v3_CondaEnvFileService": [],
+    "INTERPRETERS_CACHE_v3_CondaEnvService": [],
+    "INTERPRETERS_CACHE_v3_VirtualEnvService": [],
+    "/usr/local/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "339239dc411dd1f3d70cc9a196e87ec82d93df86511cfd16b2d50785f96cd13217d37b3fd93098d5c04aba4776724c1c10f93fe336f399c89912bfcf0ce03796"
       },
-      "expiry": 1615662233511
+      "expiry": 1619987840825
+    },
+    "/usr/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
+      },
+      "expiry": 1619987840829
+    },
+    "/usr/bin/python2.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
+      },
+      "expiry": 1619987840830
+    },
+    "/usr/local/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "dad7befac14767f0afbdc4c5095b20067f459d507e01e7900efd51e992a16ad8d742271d2b31e2319f82fa8ac93fd11d70797567e9449cbcdf94938e4f0bb672"
+      },
+      "expiry": 1619987840814
+    },
+    "/usr/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
+      },
+      "expiry": 1619987840875
+    },
+    "INTERPRETERS_CACHE_v3_KnownPathsService": [
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "339239dc411dd1f3d70cc9a196e87ec82d93df86511cfd16b2d50785f96cd13217d37b3fd93098d5c04aba4776724c1c10f93fe336f399c89912bfcf0ce03796",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "dad7befac14767f0afbdc4c5095b20067f459d507e01e7900efd51e992a16ad8d742271d2b31e2319f82fa8ac93fd11d70797567e9449cbcdf94938e4f0bb672",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "339239dc411dd1f3d70cc9a196e87ec82d93df86511cfd16b2d50785f96cd13217d37b3fd93098d5c04aba4776724c1c10f93fe336f399c89912bfcf0ce03796",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "dad7befac14767f0afbdc4c5095b20067f459d507e01e7900efd51e992a16ad8d742271d2b31e2319f82fa8ac93fd11d70797567e9449cbcdf94938e4f0bb672",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      }
+    ],
+    "/usr/local/opt/python@3.9/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/opt/python@3.9/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "527d1caa969cfe66b64ec63384f52c7c111c9e0b5cdd9e88e39820608a87698fff67b2b3a6405fecc84f7bdecdb742d6c52b1c765f70ab4bea72c33ef80af9e6"
+      },
+      "expiry": 1620003999771
+    },
+    "INTERPRETERS_CACHE_v3_CurrentPathService": [
+      {
+        "architecture": 3,
+        "path": "/usr/local/opt/python@3.9/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "527d1caa969cfe66b64ec63384f52c7c111c9e0b5cdd9e88e39820608a87698fff67b2b3a6405fecc84f7bdecdb742d6c52b1c765f70ab4bea72c33ef80af9e6",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/opt/python@3.9/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "527d1caa969cfe66b64ec63384f52c7c111c9e0b5cdd9e88e39820608a87698fff67b2b3a6405fecc84f7bdecdb742d6c52b1c765f70ab4bea72c33ef80af9e6",
+        "type": "Unknown"
+      }
+    ],
+    "PipEnvInformation": [],
+    "preferredGlobalPyInterpreter": {
+      "architecture": 3,
+      "path": "/usr/local/opt/python@3.9/bin/python3.9",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.4-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 4,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.4-final"
+      },
+      "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "527d1caa969cfe66b64ec63384f52c7c111c9e0b5cdd9e88e39820608a87698fff67b2b3a6405fecc84f7bdecdb742d6c52b1c765f70ab4bea72c33ef80af9e6",
+      "type": "Unknown",
+      "displayName": "Python 3.9.4 64-bit"
+    },
+    "/usr/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.16 64-bit",
+        "hash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2-f5b651b9c4b75532b11ae83303c43d14"
+      },
+      "expiry": 1620003999756
+    },
+    "/usr/local/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.4 64-bit",
+        "hash": "339239dc411dd1f3d70cc9a196e87ec82d93df86511cfd16b2d50785f96cd13217d37b3fd93098d5c04aba4776724c1c10f93fe336f399c89912bfcf0ce03796-435a85c8dc5caff10b14c42e4473271d"
+      },
+      "expiry": 1620003999760
+    },
+    "/usr/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.2 64-bit",
+        "hash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2-b94ba3f7e631b2cac10e62bf95a60276"
+      },
+      "expiry": 1620003999753
+    },
+    "/usr/local/opt/python@3.9/bin/python3.9.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.4 64-bit",
+        "hash": "527d1caa969cfe66b64ec63384f52c7c111c9e0b5cdd9e88e39820608a87698fff67b2b3a6405fecc84f7bdecdb742d6c52b1c765f70ab4bea72c33ef80af9e6-a455cdb16fff9975f64ecf639bb4dc61"
+      },
+      "expiry": 1620008514907
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.16 64-bit",
+        "hash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2-a9fb100b1ab04c53a774363838d4885e"
+      },
+      "expiry": 1619987840953
+    },
+    "InterpreterAutoSeletionRule-system": {
+      "architecture": 3,
+      "path": "/usr/local/opt/python@3.9/bin/python3.9",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.4-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 4,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.4-final"
+      },
+      "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "527d1caa969cfe66b64ec63384f52c7c111c9e0b5cdd9e88e39820608a87698fff67b2b3a6405fecc84f7bdecdb742d6c52b1c765f70ab4bea72c33ef80af9e6",
+      "type": "Unknown",
+      "displayName": "Python 3.9.4 64-bit"
+    },
+    "/usr/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.16-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 16,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.16-final"
+          },
+          "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+          "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+          "type": "Unknown",
+          "displayName": "Python 2.7.16 64-bit"
+        }
+      },
+      "expiry": 1620003999787
+    },
+    "/usr/local/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "339239dc411dd1f3d70cc9a196e87ec82d93df86511cfd16b2d50785f96cd13217d37b3fd93098d5c04aba4776724c1c10f93fe336f399c89912bfcf0ce03796",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/local/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.4-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 4,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.4-final"
+          },
+          "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+          "fileHash": "339239dc411dd1f3d70cc9a196e87ec82d93df86511cfd16b2d50785f96cd13217d37b3fd93098d5c04aba4776724c1c10f93fe336f399c89912bfcf0ce03796",
+          "type": "Unknown",
+          "displayName": "Python 3.9.4 64-bit"
+        }
+      },
+      "expiry": 1620003999795
+    },
+    "/usr/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.2-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 2,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.2-final"
+          },
+          "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8",
+          "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+          "type": "Unknown",
+          "displayName": "Python 3.8.2 64-bit"
+        }
+      },
+      "expiry": 1620003999779
+    },
+    "/usr/local/opt/python@3.9/bin/python3.9.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "527d1caa969cfe66b64ec63384f52c7c111c9e0b5cdd9e88e39820608a87698fff67b2b3a6405fecc84f7bdecdb742d6c52b1c765f70ab4bea72c33ef80af9e6",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/local/opt/python@3.9/bin/python3.9",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.4-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 4,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.4-final"
+          },
+          "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+          "fileHash": "527d1caa969cfe66b64ec63384f52c7c111c9e0b5cdd9e88e39820608a87698fff67b2b3a6405fecc84f7bdecdb742d6c52b1c765f70ab4bea72c33ef80af9e6",
+          "type": "Unknown",
+          "displayName": "Python 3.9.4 64-bit"
+        }
+      },
+      "expiry": 1619987840973
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "info": {
+          "architecture": 3,
+          "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.16-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 16,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.16-final"
+          },
+          "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+          "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+          "type": "Unknown",
+          "displayName": "Python 2.7.16 64-bit"
+        }
+      },
+      "expiry": 1619987840977
+    },
+    "ProposeLSBanner": false,
+    "InterpreterAutoSeletionRule-cachedInterpreters": {
+      "architecture": 3,
+      "path": "/usr/local/opt/python@3.9/bin/python3.9",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.4-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 4,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.4-final"
+      },
+      "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "527d1caa969cfe66b64ec63384f52c7c111c9e0b5cdd9e88e39820608a87698fff67b2b3a6405fecc84f7bdecdb742d6c52b1c765f70ab4bea72c33ef80af9e6",
+      "type": "Unknown",
+      "displayName": "Python 3.9.4 64-bit"
+    },
+    "/Users/lucaseras/Developer/datastructures/venv/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/datastructures/venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/datastructures/venv",
+        "fileHash": "cde5b1279952cdec63ff8b82a9212364a4f84ee009fc34f5bf5bb877aa64da5a5bc6900f225843429421ed310923554004ef69fa6f4eefab9a0392fd77c1e006"
+      },
+      "expiry": 1619987840850
+    },
+    "/Users/lucaseras/Developer/datastructures/venv/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/datastructures/venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/datastructures/venv",
+        "fileHash": "de0e7398fb5a70729819ccc40d5169a22fc33ddad68f44d7d46e5fa30731114fe31602c8763446ce3b9491c31032791b724db3340fe6f9fac11191de2a5bff40"
+      },
+      "expiry": 1619987840824
+    },
+    "/Users/lucaseras/Developer/datastructures/venv/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/datastructures/venv/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/datastructures/venv",
+        "fileHash": "3e35e2f3693cabf12f6fd780592e3cae80fa4d88ce30091dad1cc86f9957f08bf3fa7852a1b7d42109ff560aefb9a188111ebc31c242a6087b5860629cec118a"
+      },
+      "expiry": 1619987840849
+    },
+    "/Users/lucaseras/Developer/datastructures/venv/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.4 64-bit ('venv': venv)",
+        "hash": "de0e7398fb5a70729819ccc40d5169a22fc33ddad68f44d7d46e5fa30731114fe31602c8763446ce3b9491c31032791b724db3340fe6f9fac11191de2a5bff40-0ad3b9d8f2cba637d136d3e2a9e29b66"
+      },
+      "expiry": 1619987840941
+    },
+    "/Users/lucaseras/Developer/datastructures/venv/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "de0e7398fb5a70729819ccc40d5169a22fc33ddad68f44d7d46e5fa30731114fe31602c8763446ce3b9491c31032791b724db3340fe6f9fac11191de2a5bff40",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/lucaseras/Developer/datastructures/venv/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.4-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 4,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.4-final"
+          },
+          "sysPrefix": "/Users/lucaseras/Developer/datastructures/venv",
+          "fileHash": "de0e7398fb5a70729819ccc40d5169a22fc33ddad68f44d7d46e5fa30731114fe31602c8763446ce3b9491c31032791b724db3340fe6f9fac11191de2a5bff40",
+          "envName": "venv",
+          "type": "Venv",
+          "displayName": "Python 3.9.4 64-bit ('venv': venv)"
+        }
+      },
+      "expiry": 1619987840962
+    },
+    "/Users/lucaseras/Developer/pastebin/env/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/pastebin/env/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/pastebin/env",
+        "fileHash": "2f7eb5993ad5ce9f6406788acbe0053a1e25cb6e1b730cf0029480433128822a1d3da7738c1271be51339c4493be911c4ccb805d612b4f839b6f1103e01abe32"
+      },
+      "expiry": 1619570799000
+    },
+    "/Users/lucaseras/Developer/pastebin/env/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/pastebin/env/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/pastebin/env",
+        "fileHash": "4b44a0a72cb2e09d069ae4640733569f9e8ccb90d74904d95ae1dd7b3d05102065c9f1851b9cf0da7574ea99102f0e8c5fc909b4de5e65efca48750e5613f82e"
+      },
+      "expiry": 1619570798959
+    },
+    "/Users/lucaseras/Developer/pastebin/env/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/pastebin/env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/pastebin/env",
+        "fileHash": "1f21614b7e5f7b689d680485580c8ab9969b8c15455ef58ef10ecb3aad1424c20c44cac6942212cb5f5152fec1fad388e82376111ae538a2a848713df5dfc71f"
+      },
+      "expiry": 1619570798964
+    },
+    "/Users/lucaseras/Developer/pastebin/env/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.2 64-bit ('env': venv)",
+        "hash": "1f21614b7e5f7b689d680485580c8ab9969b8c15455ef58ef10ecb3aad1424c20c44cac6942212cb5f5152fec1fad388e82376111ae538a2a848713df5dfc71f-be07b3e18492faba6a7b1c7399444b3a"
+      },
+      "expiry": 1619570799090
+    },
+    "/Users/lucaseras/Developer/pastebin/env/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "1f21614b7e5f7b689d680485580c8ab9969b8c15455ef58ef10ecb3aad1424c20c44cac6942212cb5f5152fec1fad388e82376111ae538a2a848713df5dfc71f",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/lucaseras/Developer/pastebin/env/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.2-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 2,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.2-final"
+          },
+          "sysPrefix": "/Users/lucaseras/Developer/pastebin/env",
+          "fileHash": "1f21614b7e5f7b689d680485580c8ab9969b8c15455ef58ef10ecb3aad1424c20c44cac6942212cb5f5152fec1fad388e82376111ae538a2a848713df5dfc71f",
+          "envName": "env",
+          "type": "Venv",
+          "displayName": "Python 3.9.2 64-bit ('env': venv)"
+        }
+      },
+      "expiry": 1619570799108
+    },
+    "/Users/lucaseras/Developer/pastebin/env/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "4b44a0a72cb2e09d069ae4640733569f9e8ccb90d74904d95ae1dd7b3d05102065c9f1851b9cf0da7574ea99102f0e8c5fc909b4de5e65efca48750e5613f82e"
+      },
+      "expiry": 1619570877844
+    },
+    "/Users/lucaseras/Developer/pastebin/env/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.2 64-bit ('env': venv)",
+        "hash": "4b44a0a72cb2e09d069ae4640733569f9e8ccb90d74904d95ae1dd7b3d05102065c9f1851b9cf0da7574ea99102f0e8c5fc909b4de5e65efca48750e5613f82e-aa0c61fec58cb586001233f4d3b5aa93"
+      },
+      "expiry": 1619570877906
+    },
+    "/Users/lucaseras/Developer/333-se-django-react-api/env/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/333-se-django-react-api/env/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/333-se-django-react-api/env",
+        "fileHash": "2e870d4a0e1e74c52d8033b7008a3947647cbcba6eca4a9f33c2b1a1160219faeaf6b86343c14ce08325867a728d6ca789a7105ca1913a928f73cbaba495847f"
+      },
+      "expiry": 1619458435849
+    },
+    "/Users/lucaseras/Developer/333-se-django-react-api/env/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/333-se-django-react-api/env/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/333-se-django-react-api/env",
+        "fileHash": "880a7b78da5e81abd739195005ec106492f930092a54dbfb2911704a7bde4b430d1e90c34bfe0e324624d8e13f9e55c181875a3ce680424f834bdb97459b8470"
+      },
+      "expiry": 1619458435840
+    },
+    "/Users/lucaseras/Developer/333-se-django-react-api/env/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/333-se-django-react-api/env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/333-se-django-react-api/env",
+        "fileHash": "41dded75959a4af427dbec625e65931a78ce5d1590c9efb146fa290791be1154b34294fe108dd0625c1a52cddd5660ac78734c982d15d87f326805535d2122a1"
+      },
+      "expiry": 1619458435846
+    },
+    "/Users/lucaseras/Developer/333-se-django-react-api/env/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.2 64-bit ('env': venv)",
+        "hash": "41dded75959a4af427dbec625e65931a78ce5d1590c9efb146fa290791be1154b34294fe108dd0625c1a52cddd5660ac78734c982d15d87f326805535d2122a1-36cc389ef2d8e91f3912a24015c1f5c9"
+      },
+      "expiry": 1619458435927
+    },
+    "/Users/lucaseras/Developer/333-se-django-react-api/env/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "41dded75959a4af427dbec625e65931a78ce5d1590c9efb146fa290791be1154b34294fe108dd0625c1a52cddd5660ac78734c982d15d87f326805535d2122a1",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/lucaseras/Developer/333-se-django-react-api/env/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.2-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 2,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.2-final"
+          },
+          "sysPrefix": "/Users/lucaseras/Developer/333-se-django-react-api/env",
+          "fileHash": "41dded75959a4af427dbec625e65931a78ce5d1590c9efb146fa290791be1154b34294fe108dd0625c1a52cddd5660ac78734c982d15d87f326805535d2122a1",
+          "envName": "env",
+          "type": "Venv",
+          "displayName": "Python 3.9.2 64-bit ('env': venv)"
+        }
+      },
+      "expiry": 1619458435932
+    },
+    "/Users/lucaseras/Developer/333-se-django-react-api/env/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "2e870d4a0e1e74c52d8033b7008a3947647cbcba6eca4a9f33c2b1a1160219faeaf6b86343c14ce08325867a728d6ca789a7105ca1913a928f73cbaba495847f"
+      },
+      "expiry": 1619458435920
+    },
+    "/Users/lucaseras/Developer/333-se-django-react-api/env/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.2 64-bit ('env': venv)",
+        "hash": "2e870d4a0e1e74c52d8033b7008a3947647cbcba6eca4a9f33c2b1a1160219faeaf6b86343c14ce08325867a728d6ca789a7105ca1913a928f73cbaba495847f-f140378434c7156448288720c42fec76"
+      },
+      "expiry": 1619458435935
+    },
+    "InterpreterAutoSeletionRule-currentPath": {
+      "architecture": 3,
+      "path": "/usr/local/opt/python@3.9/bin/python3.9",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.4-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 4,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.4-final"
+      },
+      "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "527d1caa969cfe66b64ec63384f52c7c111c9e0b5cdd9e88e39820608a87698fff67b2b3a6405fecc84f7bdecdb742d6c52b1c765f70ab4bea72c33ef80af9e6",
+      "type": "Unknown"
+    },
+    "InterpreterAutoSeletionRule-workspaceEnvs": {
+      "architecture": 3,
+      "path": "/Users/lucaseras/Developer/datastructures/venv/bin/python3.9",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.4-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 4,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.4-final"
+      },
+      "sysPrefix": "/Users/lucaseras/Developer/datastructures/venv",
+      "fileHash": "3e35e2f3693cabf12f6fd780592e3cae80fa4d88ce30091dad1cc86f9957f08bf3fa7852a1b7d42109ff560aefb9a188111ebc31c242a6087b5860629cec118a",
+      "envName": "venv",
+      "type": "Venv"
+    },
+    "InterpreterAutoSeletionRule-environment": {
+      "architecture": 3,
+      "path": "/Users/lucaseras/Developer/pastebin/env/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.2-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.2-final"
+      },
+      "sysPrefix": "/Users/lucaseras/Developer/pastebin/env",
+      "fileHash": "4b44a0a72cb2e09d069ae4640733569f9e8ccb90d74904d95ae1dd7b3d05102065c9f1851b9cf0da7574ea99102f0e8c5fc909b4de5e65efca48750e5613f82e",
+      "type": "VirtualEnv"
     }
+  },
+  "coc-python|/Users/lucaseras/Developer/datastructures": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:6183e3699a4a92eb24d2a724643dcea9": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:6183e3699a4a92eb24d2a724643dcea9": [
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/datastructures/venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/datastructures/venv",
+        "fileHash": "de0e7398fb5a70729819ccc40d5169a22fc33ddad68f44d7d46e5fa30731114fe31602c8763446ce3b9491c31032791b724db3340fe6f9fac11191de2a5bff40",
+        "envName": "venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/datastructures/venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/datastructures/venv",
+        "fileHash": "cde5b1279952cdec63ff8b82a9212364a4f84ee009fc34f5bf5bb877aa64da5a5bc6900f225843429421ed310923554004ef69fa6f4eefab9a0392fd77c1e006",
+        "envName": "venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/datastructures/venv/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/datastructures/venv",
+        "fileHash": "3e35e2f3693cabf12f6fd780592e3cae80fa4d88ce30091dad1cc86f9957f08bf3fa7852a1b7d42109ff560aefb9a188111ebc31c242a6087b5860629cec118a",
+        "envName": "venv",
+        "type": "Venv"
+      }
+    ],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/datastructures/venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/datastructures/venv",
+        "fileHash": "de0e7398fb5a70729819ccc40d5169a22fc33ddad68f44d7d46e5fa30731114fe31602c8763446ce3b9491c31032791b724db3340fe6f9fac11191de2a5bff40",
+        "envName": "venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/datastructures/venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/datastructures/venv",
+        "fileHash": "cde5b1279952cdec63ff8b82a9212364a4f84ee009fc34f5bf5bb877aa64da5a5bc6900f225843429421ed310923554004ef69fa6f4eefab9a0392fd77c1e006",
+        "envName": "venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/datastructures/venv/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/datastructures/venv",
+        "fileHash": "3e35e2f3693cabf12f6fd780592e3cae80fa4d88ce30091dad1cc86f9957f08bf3fa7852a1b7d42109ff560aefb9a188111ebc31c242a6087b5860629cec118a",
+        "envName": "venv",
+        "type": "Venv"
+      }
+    ],
+    "SelectedPythonPath": "/Users/lucaseras/Developer/datastructures/venv/bin/python3.9",
+    "autoSelectedWorkspacePythonInterpreter-/Users/lucaseras/Developer/datastructures": {
+      "architecture": 3,
+      "path": "/Users/lucaseras/Developer/datastructures/venv/bin/python3.9",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.4-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 4,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.4-final"
+      },
+      "sysPrefix": "/Users/lucaseras/Developer/datastructures/venv",
+      "fileHash": "3e35e2f3693cabf12f6fd780592e3cae80fa4d88ce30091dad1cc86f9957f08bf3fa7852a1b7d42109ff560aefb9a188111ebc31c242a6087b5860629cec118a",
+      "envName": "venv",
+      "type": "Venv"
+    }
+  },
+  "coc-python|/": {
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": []
+  },
+  "coc-python|/Users/lucaseras": {
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": []
+  },
+  "coc-python|/Users/lucaseras/Developer/leetCode": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:cb6e2f50df0f36a2fe69cdd9ba6d2970": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:cb6e2f50df0f36a2fe69cdd9ba6d2970": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lucaseras/Developer/ideas-schedule-scripts": {
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": []
+  },
+  "coc-python|/Users/lucaseras/Developer/COMP312/hw5": {
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": []
+  },
+  "coc-python|/Users/lucaseras/Developer/pastebin/tutorial/tutorial": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:95cea728a611e3b27e71d5b9d55e2d62": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:95cea728a611e3b27e71d5b9d55e2d62": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lucaseras/Developer/pastebin/tutorial/snippets": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:70082fb630d9890bd397f8400cbcd21f": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:70082fb630d9890bd397f8400cbcd21f": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "SelectedPythonPath": "/Users/lucaseras/Developer/pastebin/env/bin/python",
+    "INTERPRETERS_CACHE_v3_PipEnvService:9aefd7e21c1b5da785ef9ce9e47f6257": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:9aefd7e21c1b5da785ef9ce9e47f6257": [
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/pastebin/env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/pastebin/env",
+        "fileHash": "1f21614b7e5f7b689d680485580c8ab9969b8c15455ef58ef10ecb3aad1424c20c44cac6942212cb5f5152fec1fad388e82376111ae538a2a848713df5dfc71f",
+        "envName": "env",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/pastebin/env/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/pastebin/env",
+        "fileHash": "4b44a0a72cb2e09d069ae4640733569f9e8ccb90d74904d95ae1dd7b3d05102065c9f1851b9cf0da7574ea99102f0e8c5fc909b4de5e65efca48750e5613f82e",
+        "envName": "env",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/pastebin/env/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/pastebin/env",
+        "fileHash": "2f7eb5993ad5ce9f6406788acbe0053a1e25cb6e1b730cf0029480433128822a1d3da7738c1271be51339c4493be911c4ccb805d612b4f839b6f1103e01abe32",
+        "envName": "env",
+        "type": "Venv"
+      }
+    ],
+    "INTERPRETERS_CACHE_v3_PipEnvService:b57a281ab9afe87f7edfaa0328f47dc6": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:b57a281ab9afe87f7edfaa0328f47dc6": [
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/pastebin/env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/pastebin/env",
+        "fileHash": "1f21614b7e5f7b689d680485580c8ab9969b8c15455ef58ef10ecb3aad1424c20c44cac6942212cb5f5152fec1fad388e82376111ae538a2a848713df5dfc71f",
+        "envName": "env",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/pastebin/env/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/pastebin/env",
+        "fileHash": "4b44a0a72cb2e09d069ae4640733569f9e8ccb90d74904d95ae1dd7b3d05102065c9f1851b9cf0da7574ea99102f0e8c5fc909b4de5e65efca48750e5613f82e",
+        "envName": "env",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/pastebin/env/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/pastebin/env",
+        "fileHash": "2f7eb5993ad5ce9f6406788acbe0053a1e25cb6e1b730cf0029480433128822a1d3da7738c1271be51339c4493be911c4ccb805d612b4f839b6f1103e01abe32",
+        "envName": "env",
+        "type": "Venv"
+      }
+    ]
+  },
+  "coc-python|/Users/lucaseras/Developer/333-se-django-react-api": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:320a59e90c9bc02ea0efad8ba9af1bd6": [],
+    "SelectedPythonPath": "/Users/lucaseras/Developer/333-se-django-react-api/env/bin/python3",
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:320a59e90c9bc02ea0efad8ba9af1bd6": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:bae45377658af527cf98a28644276a2f": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:bae45377658af527cf98a28644276a2f": []
+  },
+  "coc-python|/Users/lucaseras/Developer/pastebin": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:b57a281ab9afe87f7edfaa0328f47dc6": [],
+    "SelectedPythonPath": "/Users/lucaseras/Developer/pastebin/env/bin/python3",
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:b57a281ab9afe87f7edfaa0328f47dc6": [
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/pastebin/env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/pastebin/env",
+        "fileHash": "1f21614b7e5f7b689d680485580c8ab9969b8c15455ef58ef10ecb3aad1424c20c44cac6942212cb5f5152fec1fad388e82376111ae538a2a848713df5dfc71f",
+        "envName": "env",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/pastebin/env/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/pastebin/env",
+        "fileHash": "4b44a0a72cb2e09d069ae4640733569f9e8ccb90d74904d95ae1dd7b3d05102065c9f1851b9cf0da7574ea99102f0e8c5fc909b4de5e65efca48750e5613f82e",
+        "envName": "env",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/pastebin/env/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/pastebin/env",
+        "fileHash": "2f7eb5993ad5ce9f6406788acbe0053a1e25cb6e1b730cf0029480433128822a1d3da7738c1271be51339c4493be911c4ccb805d612b4f839b6f1103e01abe32",
+        "envName": "env",
+        "type": "Venv"
+      }
+    ],
+    "autoSelectedWorkspacePythonInterpreter-/Users/lucaseras/Developer/pastebin": {
+      "architecture": 3,
+      "path": "/Users/lucaseras/Developer/pastebin/env/bin/python3.9",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.2-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.2-final"
+      },
+      "sysPrefix": "/Users/lucaseras/Developer/pastebin/env",
+      "fileHash": "2f7eb5993ad5ce9f6406788acbe0053a1e25cb6e1b730cf0029480433128822a1d3da7738c1271be51339c4493be911c4ccb805d612b4f839b6f1103e01abe32",
+      "envName": "env",
+      "type": "Venv"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lucaseras/Developer/COMP312/hw6": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:9286326a141a7dc8276f364732629055": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:9286326a141a7dc8276f364732629055": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lucaseras/.config/nvim/UltiSnips": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:6f084e86997f561de2b81e23f7836a12": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:6f084e86997f561de2b81e23f7836a12": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lucaseras/Developer/datastructures/datastructs": {
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/datastructures/venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/datastructures/venv",
+        "fileHash": "de0e7398fb5a70729819ccc40d5169a22fc33ddad68f44d7d46e5fa30731114fe31602c8763446ce3b9491c31032791b724db3340fe6f9fac11191de2a5bff40",
+        "envName": "venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/datastructures/venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/datastructures/venv",
+        "fileHash": "cde5b1279952cdec63ff8b82a9212364a4f84ee009fc34f5bf5bb877aa64da5a5bc6900f225843429421ed310923554004ef69fa6f4eefab9a0392fd77c1e006",
+        "envName": "venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/datastructures/venv/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/datastructures/venv",
+        "fileHash": "3e35e2f3693cabf12f6fd780592e3cae80fa4d88ce30091dad1cc86f9957f08bf3fa7852a1b7d42109ff560aefb9a188111ebc31c242a6087b5860629cec118a",
+        "envName": "venv",
+        "type": "Venv"
+      }
+    ],
+    "INTERPRETERS_CACHE_v3_PipEnvService:6183e3699a4a92eb24d2a724643dcea9": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:6183e3699a4a92eb24d2a724643dcea9": [
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/datastructures/venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/datastructures/venv",
+        "fileHash": "de0e7398fb5a70729819ccc40d5169a22fc33ddad68f44d7d46e5fa30731114fe31602c8763446ce3b9491c31032791b724db3340fe6f9fac11191de2a5bff40",
+        "envName": "venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/datastructures/venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/datastructures/venv",
+        "fileHash": "cde5b1279952cdec63ff8b82a9212364a4f84ee009fc34f5bf5bb877aa64da5a5bc6900f225843429421ed310923554004ef69fa6f4eefab9a0392fd77c1e006",
+        "envName": "venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/datastructures/venv/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/datastructures/venv",
+        "fileHash": "3e35e2f3693cabf12f6fd780592e3cae80fa4d88ce30091dad1cc86f9957f08bf3fa7852a1b7d42109ff560aefb9a188111ebc31c242a6087b5860629cec118a",
+        "envName": "venv",
+        "type": "Venv"
+      }
+    ],
+    "SelectedPythonPath": "/Users/lucaseras/Developer/datastructures/venv/bin/python3.9"
   }
 }

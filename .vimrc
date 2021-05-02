@@ -45,7 +45,8 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': 
 "Plug 'nathanaelkane/vim-indent-guides'
 
 "Installing snippets
-"Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
+"Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
 
 "just a random theme
 Plug 'NLKNguyen/papercolor-theme'
@@ -101,6 +102,10 @@ Plug 'mattn/emmet-vim'
 
 " tex files in vim
 Plug 'lervag/vimtex'
+
+" linting
+"Plug 'dense-analysis/ale'
+
 
 call plug#end()
 
@@ -166,10 +171,10 @@ noremap <Leader>Y "+y
 noremap <Leader>P "+p
 
 " move between splits without doing <C-w>
-nnoremap <C-J> <C-W><C-J>
-nnoremap <C-K> <C-W><C-K>
-nnoremap <C-L> <C-W><C-L>
-nnoremap <C-H> <C-W><C-H>
+"nnoremap <C-J> <C-W><C-J>
+"nnoremap <C-K> <C-W><C-K>
+"nnoremap <C-L> <C-W><C-L>
+"nnoremap <C-H> <C-W><C-H>
 "tnoremap <C-J> <C-\><C-n><C-W><C-J>
 "tnoremap <C-K> <C-\><C-n><C-W><C-K>
 "tnoremap <C-L> <C-\><C-n><C-W><C-L>
@@ -184,7 +189,25 @@ if !has('nvim')
     set ttymouse=xterm2
 endif
 
-let g:tex_flavor = 'latex'
+let g:tex_flavor='latex'
+"let g:vimtex_view_method='zathura'
+"
+nnoremap <localleader>lt :call vimtex#fzf#run()<cr>
+
+set signcolumn=no
+
+let g:vimtex_quickfix_mode=0
+let g:vimtex_compiler_progname = 'nvr'
+let g:vimtex_compiler_latexmk = {
+    \ 'options' : [
+    \   '-pdf',
+    \   '-shell-escape',
+    \   '-verbose',
+    \   '-file-line-error',
+    \   '-synctex=1',
+    \   '-interaction=nonstopmode',
+    \ ],
+    \}
 " enable plugins and indent
 filetype plugin on
 filetype indent on
@@ -194,9 +217,9 @@ syntax on
 set visualbell
 
 " tab maps
-nnoremap <leader>th :tabprev<CR>
-nnoremap <leader>l :tabnext<CR>
-nnoremap <leader>n :tabnew<CR>
+"nnoremap <leader>th :tabprev<CR>
+"nnoremap <leader>l :tabnext<CR>
+"nnoremap <leader>n :tabnew<CR>
 
 " gruvbox stuff
 set background=dark
@@ -434,13 +457,10 @@ inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 
 autocmd FileType json syntax match Comment +\/\/.\+$+
-
-
+autocmd FileType python let b:coc_root_patterns = ['.git', '.env']
 nnoremap <leader>d "_d
 xnoremap <leader>d "_d
 xnoremap <leader>p "_dP
-
-
 
 " ================ Markdown Configs ==================== 
 "set to 1, nvim will open the preview window after entering the markdown buffer
@@ -609,4 +629,7 @@ set foldnestmax=10
 "set nofoldenable
 set foldlevel=2
 
+
+" ================ Linting settings ===================
+"let g:ale_python_pylint_options = '--load-plugins pylint_django'
 

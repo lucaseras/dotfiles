@@ -1,9 +1,30 @@
 {
+// diagnostic settings
+"diagnostic.enableMessage":"always",
+//"diagnostic.virtualText":true,
+"diagnostic.virtualTextCurrentLineOnly":true,
+"diagnostic.messageTarget":"float",
+//"diagnostic.displayByAle":true,
+//"diagnostic.enableSign":false,
+"diagnostic.messageDelay":0,
+"diagnostic.enableHighlightLineNumber":true,
+"diagnostic.level":"warning",
+"diagnostic.checkCurrentLine":true,
+
+// suggestion settings
 "suggest.noselect": true,
 "suggest.enablePreview": true,
 "codeLens.enable": true,
 "coc.source.around.enable": false,
 "coc.source.buffer.enable": false,
+"snippets.userSnippetsDirectory":"~/.config/nvim/UltiSnips",
+"python.linting.pylintEnabled": true,
+"python.linting.pylintArgs": [
+    "--disable=C0111", // missing docstring
+    "--disable=django-not-configured",
+    "--disable=C0103",
+    "--disable=C0303"
+ ],
 "python.pythonPath": "python3",
 "coc.preferences.formatOnType": true,
 "coc.preferences.bracketEnterImprove":true,
