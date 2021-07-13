@@ -21,6 +21,10 @@ alias tree='(){tree -C};'
 export ZSH="/Users/lucaseras/.oh-my-zsh"
 export PATH=/usr/local/smlnj/bin:"$PATH"
 export PATH=$PATH:$HOME/Library/Python/3.9/bin
+export PATH=/usr/local/opt/ruby/bin:$PATH
+#export PATH=/usr/local/lib/ruby/gems/3.0.0/gems/solargraph-0.42.3/
+source $HOME/.zshenv
+
 
 export PATH=$HOME/tools/nvim:$PATH
 powerline-daemon -q
@@ -164,3 +168,6 @@ bindkey -s '^F' 'cd_with_fzf^M'
 bindkey -s '^E' 'nvim $(fzf)^M'
 export TERM=xterm-256color
 [ -f "/Users/lucaseras/.ghcup/env" ] && source "/Users/lucaseras/.ghcup/env" # ghcup-env
+
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"

@@ -1,7 +1,6 @@
 set encoding=utf-8
 set fileencoding=utf-8
 set termencoding=utf-8
-"set guifont=Meslo\ Lg\ M\ DZ\ for\ Powerline:h14
 set macligatures
 set guifont=Fira\ Code:h14
 set showcmd

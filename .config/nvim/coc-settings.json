@@ -1,16 +1,12 @@
 {
 // diagnostic settings
 "diagnostic.enableMessage":"always",
-//"diagnostic.virtualText":true,
 "diagnostic.virtualTextCurrentLineOnly":true,
 "diagnostic.messageTarget":"float",
-//"diagnostic.displayByAle":true,
-//"diagnostic.enableSign":false,
 "diagnostic.messageDelay":0,
 "diagnostic.enableHighlightLineNumber":true,
-"diagnostic.level":"warning",
+//"diagnostic.level":"warning",
 "diagnostic.checkCurrentLine":true,
-
 // suggestion settings
 "suggest.noselect": true,
 "suggest.enablePreview": true,
@@ -23,15 +19,16 @@
     "--disable=C0111", // missing docstring
     "--disable=django-not-configured",
     "--disable=C0103",
+    "--disable=R0903",
     "--disable=C0303"
  ],
-"python.pythonPath": "python3",
+//"python.globalModuleInstallation": true,
 "coc.preferences.formatOnType": true,
 "coc.preferences.bracketEnterImprove":true,
-"python.autoComplete.extraPaths": [
-  "${env:SPARK_HOME}/python",
-  "${env:SPARK_HOME}/python/pyspark"
-],
+//"python.autoComplete.extraPaths": [
+//  "${env:SPARK_HOME}/python",
+//  "${env:SPARK_HOME}/python/pyspark"
+//],
 "languageserver": {
     "haskell": {
       "command": "haskell-language-server-wrapper",

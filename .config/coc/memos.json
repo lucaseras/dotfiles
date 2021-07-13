@@ -23,7 +23,7 @@
         "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
         "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
       },
-      "expiry": 1619987840921
+      "expiry": 1624655787320
     },
     "/usr/bin/python2.v3": {
       "data": {
@@ -48,7 +48,7 @@
         "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
         "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
       },
-      "expiry": 1619987840828
+      "expiry": 1624655787300
     },
     "INTERPRETERS_CACHE_v3_CondaEnvFileService": [],
     "INTERPRETERS_CACHE_v3_CondaEnvService": [],
@@ -76,7 +76,7 @@
         "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
         "fileHash": "339239dc411dd1f3d70cc9a196e87ec82d93df86511cfd16b2d50785f96cd13217d37b3fd93098d5c04aba4776724c1c10f93fe336f399c89912bfcf0ce03796"
       },
-      "expiry": 1619987840825
+      "expiry": 1624655787302
     },
     "/usr/bin/python.v3": {
       "data": {
@@ -101,7 +101,7 @@
         "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
         "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
       },
-      "expiry": 1619987840829
+      "expiry": 1624655787295
     },
     "/usr/bin/python2.7.v3": {
       "data": {
@@ -126,7 +126,7 @@
         "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
         "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
       },
-      "expiry": 1619987840830
+      "expiry": 1624655787297
     },
     "/usr/local/bin/python3.9.v3": {
       "data": {
@@ -151,7 +151,7 @@
         "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
         "fileHash": "dad7befac14767f0afbdc4c5095b20067f459d507e01e7900efd51e992a16ad8d742271d2b31e2319f82fa8ac93fd11d70797567e9449cbcdf94938e4f0bb672"
       },
-      "expiry": 1619987840814
+      "expiry": 1624655787259
     },
     "/usr/bin/python3.v3": {
       "data": {
@@ -176,7 +176,7 @@
         "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.8",
         "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
       },
-      "expiry": 1619987840875
+      "expiry": 1624655787546
     },
     "INTERPRETERS_CACHE_v3_KnownPathsService": [
       {
@@ -479,7 +479,7 @@
         "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
         "fileHash": "527d1caa969cfe66b64ec63384f52c7c111c9e0b5cdd9e88e39820608a87698fff67b2b3a6405fecc84f7bdecdb742d6c52b1c765f70ab4bea72c33ef80af9e6"
       },
-      "expiry": 1620003999771
+      "expiry": 1624655787367
     },
     "INTERPRETERS_CACHE_v3_CurrentPathService": [
       {
@@ -605,35 +605,35 @@
         "displayName": "Python 2.7.16 64-bit",
         "hash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2-f5b651b9c4b75532b11ae83303c43d14"
       },
-      "expiry": 1620003999756
+      "expiry": 1624655821387
     },
     "/usr/local/bin/python3.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 3.9.4 64-bit",
         "hash": "339239dc411dd1f3d70cc9a196e87ec82d93df86511cfd16b2d50785f96cd13217d37b3fd93098d5c04aba4776724c1c10f93fe336f399c89912bfcf0ce03796-435a85c8dc5caff10b14c42e4473271d"
       },
-      "expiry": 1620003999760
+      "expiry": 1624655821384
     },
     "/usr/bin/python3.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 3.8.2 64-bit",
         "hash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2-b94ba3f7e631b2cac10e62bf95a60276"
       },
-      "expiry": 1620003999753
+      "expiry": 1624655821389
     },
     "/usr/local/opt/python@3.9/bin/python3.9.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 3.9.4 64-bit",
         "hash": "527d1caa969cfe66b64ec63384f52c7c111c9e0b5cdd9e88e39820608a87698fff67b2b3a6405fecc84f7bdecdb742d6c52b1c765f70ab4bea72c33ef80af9e6-a455cdb16fff9975f64ecf639bb4dc61"
       },
-      "expiry": 1620008514907
+      "expiry": 1624655787406
     },
     "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 2.7.16 64-bit",
         "hash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2-a9fb100b1ab04c53a774363838d4885e"
       },
-      "expiry": 1619987840953
+      "expiry": 1624655787409
     },
     "InterpreterAutoSeletionRule-system": {
       "architecture": 3,
@@ -687,7 +687,7 @@
           "displayName": "Python 2.7.16 64-bit"
         }
       },
-      "expiry": 1620003999787
+      "expiry": 1624655821413
     },
     "/usr/local/bin/python3.interpreter.Details.v7": {
       "data": {
@@ -717,7 +717,7 @@
           "displayName": "Python 3.9.4 64-bit"
         }
       },
-      "expiry": 1620003999795
+      "expiry": 1624655821405
     },
     "/usr/bin/python3.interpreter.Details.v7": {
       "data": {
@@ -747,7 +747,7 @@
           "displayName": "Python 3.8.2 64-bit"
         }
       },
-      "expiry": 1620003999779
+      "expiry": 1624655821418
     },
     "/usr/local/opt/python@3.9/bin/python3.9.interpreter.Details.v7": {
       "data": {
@@ -777,7 +777,7 @@
           "displayName": "Python 3.9.4 64-bit"
         }
       },
-      "expiry": 1619987840973
+      "expiry": 1624655787421
     },
     "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.Details.v7": {
       "data": {
@@ -807,7 +807,7 @@
           "displayName": "Python 2.7.16 64-bit"
         }
       },
-      "expiry": 1619987840977
+      "expiry": 1624655787429
     },
     "ProposeLSBanner": false,
     "InterpreterAutoSeletionRule-cachedInterpreters": {
@@ -857,7 +857,7 @@
         "sysPrefix": "/Users/lucaseras/Developer/datastructures/venv",
         "fileHash": "cde5b1279952cdec63ff8b82a9212364a4f84ee009fc34f5bf5bb877aa64da5a5bc6900f225843429421ed310923554004ef69fa6f4eefab9a0392fd77c1e006"
       },
-      "expiry": 1619987840850
+      "expiry": 1624048967772
     },
     "/Users/lucaseras/Developer/datastructures/venv/bin/python.v3": {
       "data": {
@@ -882,7 +882,7 @@
         "sysPrefix": "/Users/lucaseras/Developer/datastructures/venv",
         "fileHash": "de0e7398fb5a70729819ccc40d5169a22fc33ddad68f44d7d46e5fa30731114fe31602c8763446ce3b9491c31032791b724db3340fe6f9fac11191de2a5bff40"
       },
-      "expiry": 1619987840824
+      "expiry": 1624048967774
     },
     "/Users/lucaseras/Developer/datastructures/venv/bin/python3.9.v3": {
       "data": {
@@ -907,14 +907,14 @@
         "sysPrefix": "/Users/lucaseras/Developer/datastructures/venv",
         "fileHash": "3e35e2f3693cabf12f6fd780592e3cae80fa4d88ce30091dad1cc86f9957f08bf3fa7852a1b7d42109ff560aefb9a188111ebc31c242a6087b5860629cec118a"
       },
-      "expiry": 1619987840849
+      "expiry": 1624048967777
     },
     "/Users/lucaseras/Developer/datastructures/venv/bin/python.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 3.9.4 64-bit ('venv': venv)",
         "hash": "de0e7398fb5a70729819ccc40d5169a22fc33ddad68f44d7d46e5fa30731114fe31602c8763446ce3b9491c31032791b724db3340fe6f9fac11191de2a5bff40-0ad3b9d8f2cba637d136d3e2a9e29b66"
       },
-      "expiry": 1619987840941
+      "expiry": 1624048967884
     },
     "/Users/lucaseras/Developer/datastructures/venv/bin/python.interpreter.Details.v7": {
       "data": {
@@ -945,7 +945,7 @@
           "displayName": "Python 3.9.4 64-bit ('venv': venv)"
         }
       },
-      "expiry": 1619987840962
+      "expiry": 1624048967903
     },
     "/Users/lucaseras/Developer/pastebin/env/bin/python3.9.v3": {
       "data": {
@@ -957,20 +957,20 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.9.2-final",
+          "raw": "3.9.4-final",
           "major": 3,
           "minor": 9,
-          "patch": 2,
+          "patch": 4,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.9.2-final"
+          "version": "3.9.4-final"
         },
         "sysPrefix": "/Users/lucaseras/Developer/pastebin/env",
         "fileHash": "2f7eb5993ad5ce9f6406788acbe0053a1e25cb6e1b730cf0029480433128822a1d3da7738c1271be51339c4493be911c4ccb805d612b4f839b6f1103e01abe32"
       },
-      "expiry": 1619570799000
+      "expiry": 1623881129819
     },
     "/Users/lucaseras/Developer/pastebin/env/bin/python3.v3": {
       "data": {
@@ -982,20 +982,20 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.9.2-final",
+          "raw": "3.9.4-final",
           "major": 3,
           "minor": 9,
-          "patch": 2,
+          "patch": 4,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.9.2-final"
+          "version": "3.9.4-final"
         },
         "sysPrefix": "/Users/lucaseras/Developer/pastebin/env",
         "fileHash": "4b44a0a72cb2e09d069ae4640733569f9e8ccb90d74904d95ae1dd7b3d05102065c9f1851b9cf0da7574ea99102f0e8c5fc909b4de5e65efca48750e5613f82e"
       },
-      "expiry": 1619570798959
+      "expiry": 1623881129821
     },
     "/Users/lucaseras/Developer/pastebin/env/bin/python.v3": {
       "data": {
@@ -1007,27 +1007,27 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.9.2-final",
+          "raw": "3.9.4-final",
           "major": 3,
           "minor": 9,
-          "patch": 2,
+          "patch": 4,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.9.2-final"
+          "version": "3.9.4-final"
         },
         "sysPrefix": "/Users/lucaseras/Developer/pastebin/env",
         "fileHash": "1f21614b7e5f7b689d680485580c8ab9969b8c15455ef58ef10ecb3aad1424c20c44cac6942212cb5f5152fec1fad388e82376111ae538a2a848713df5dfc71f"
       },
-      "expiry": 1619570798964
+      "expiry": 1623881129815
     },
     "/Users/lucaseras/Developer/pastebin/env/bin/python.interpreter.displayName.v7": {
       "data": {
-        "displayName": "Python 3.9.2 64-bit ('env': venv)",
-        "hash": "1f21614b7e5f7b689d680485580c8ab9969b8c15455ef58ef10ecb3aad1424c20c44cac6942212cb5f5152fec1fad388e82376111ae538a2a848713df5dfc71f-be07b3e18492faba6a7b1c7399444b3a"
+        "displayName": "Python 3.9.4 64-bit ('env': venv)",
+        "hash": "1f21614b7e5f7b689d680485580c8ab9969b8c15455ef58ef10ecb3aad1424c20c44cac6942212cb5f5152fec1fad388e82376111ae538a2a848713df5dfc71f-0235010bdef5c8537333a4f2af769c5a"
       },
-      "expiry": 1619570799090
+      "expiry": 1623881129918
     },
     "/Users/lucaseras/Developer/pastebin/env/bin/python.interpreter.Details.v7": {
       "data": {
@@ -1041,24 +1041,24 @@
               "includePrerelease": false
             },
             "loose": false,
-            "raw": "3.9.2-final",
+            "raw": "3.9.4-final",
             "major": 3,
             "minor": 9,
-            "patch": 2,
+            "patch": 4,
             "prerelease": [
               "final"
             ],
             "build": [],
-            "version": "3.9.2-final"
+            "version": "3.9.4-final"
           },
           "sysPrefix": "/Users/lucaseras/Developer/pastebin/env",
           "fileHash": "1f21614b7e5f7b689d680485580c8ab9969b8c15455ef58ef10ecb3aad1424c20c44cac6942212cb5f5152fec1fad388e82376111ae538a2a848713df5dfc71f",
           "envName": "env",
           "type": "Venv",
-          "displayName": "Python 3.9.2 64-bit ('env': venv)"
+          "displayName": "Python 3.9.4 64-bit ('env': venv)"
         }
       },
-      "expiry": 1619570799108
+      "expiry": 1623881129933
     },
     "/Users/lucaseras/Developer/pastebin/env/bin/python3.interpreter.Details.v7": {
       "data": {
@@ -1224,7 +1224,7 @@
     },
     "InterpreterAutoSeletionRule-workspaceEnvs": {
       "architecture": 3,
-      "path": "/Users/lucaseras/Developer/datastructures/venv/bin/python3.9",
+      "path": "/Users/lucaseras/Developer/cbpro/env/bin/python3.9",
       "version": {
         "options": {
           "loose": false,
@@ -1241,33 +1241,315 @@
         "build": [],
         "version": "3.9.4-final"
       },
-      "sysPrefix": "/Users/lucaseras/Developer/datastructures/venv",
-      "fileHash": "3e35e2f3693cabf12f6fd780592e3cae80fa4d88ce30091dad1cc86f9957f08bf3fa7852a1b7d42109ff560aefb9a188111ebc31c242a6087b5860629cec118a",
-      "envName": "venv",
+      "sysPrefix": "/Users/lucaseras/Developer/cbpro/env",
+      "fileHash": "f48ed66cf1ab7f3ca58fe2e466ebec238356f64d0b9904d05afdc87cf617e1b75b2aba2dd12692334cf2509bc363c3e92b1e7f59df61e4701b664f5bb49ed94a",
+      "envName": "env",
       "type": "Venv"
     },
     "InterpreterAutoSeletionRule-environment": {
       "architecture": 3,
-      "path": "/Users/lucaseras/Developer/pastebin/env/bin/python3",
+      "path": "/Users/lucaseras/Developer/coinbase/env/bin/python3",
       "version": {
         "options": {
           "loose": false,
           "includePrerelease": false
         },
         "loose": false,
-        "raw": "3.9.2-final",
+        "raw": "3.9.4-final",
         "major": 3,
         "minor": 9,
-        "patch": 2,
+        "patch": 4,
         "prerelease": [
           "final"
         ],
         "build": [],
-        "version": "3.9.2-final"
+        "version": "3.9.4-final"
       },
-      "sysPrefix": "/Users/lucaseras/Developer/pastebin/env",
-      "fileHash": "4b44a0a72cb2e09d069ae4640733569f9e8ccb90d74904d95ae1dd7b3d05102065c9f1851b9cf0da7574ea99102f0e8c5fc909b4de5e65efca48750e5613f82e",
+      "sysPrefix": "/Users/lucaseras/Developer/coinbase/env",
+      "fileHash": "88cf61b8dd4eb88f57be62467bbf659e75b08e39027ee4102f925415967004e361f1f65fbaa64b8cbd20815ca5d24bdf8b2f16b00563e57b2bc7ac33e357feca",
       "type": "VirtualEnv"
+    },
+    "/Users/lucaseras/Developer/cbpro/env/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/cbpro/env/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/cbpro/env",
+        "fileHash": "f48ed66cf1ab7f3ca58fe2e466ebec238356f64d0b9904d05afdc87cf617e1b75b2aba2dd12692334cf2509bc363c3e92b1e7f59df61e4701b664f5bb49ed94a"
+      },
+      "expiry": 1624577612056
+    },
+    "/Users/lucaseras/Developer/cbpro/env/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/cbpro/env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/cbpro/env",
+        "fileHash": "205833203ea7edc8d15454f7bb140bcf7af9281ae1303e3efeb0591f0f6472e6ea8fc7a4d0927eaf8d4caa3fc133449b1741b910a8011012cc252efd93a336f3"
+      },
+      "expiry": 1624577612067
+    },
+    "/Users/lucaseras/Developer/cbpro/env/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/cbpro/env/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/cbpro/env",
+        "fileHash": "b762e429c57c515b4cb41dfed7dd62dac951602c19a28812220818d069bba1ad91cf791c27bd03c68fee415d9db0b9c86a453146db99a015ca435321da7e72c9"
+      },
+      "expiry": 1624577612065
+    },
+    "/Users/lucaseras/Developer/cbpro/env/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.4 64-bit ('env': venv)",
+        "hash": "205833203ea7edc8d15454f7bb140bcf7af9281ae1303e3efeb0591f0f6472e6ea8fc7a4d0927eaf8d4caa3fc133449b1741b910a8011012cc252efd93a336f3-66abf7a37946899dd90a39917fe8bb63"
+      },
+      "expiry": 1624578971864
+    },
+    "/Users/lucaseras/Developer/cbpro/env/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "205833203ea7edc8d15454f7bb140bcf7af9281ae1303e3efeb0591f0f6472e6ea8fc7a4d0927eaf8d4caa3fc133449b1741b910a8011012cc252efd93a336f3",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/lucaseras/Developer/cbpro/env/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.4-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 4,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.4-final"
+          },
+          "sysPrefix": "/Users/lucaseras/Developer/cbpro/env",
+          "fileHash": "205833203ea7edc8d15454f7bb140bcf7af9281ae1303e3efeb0591f0f6472e6ea8fc7a4d0927eaf8d4caa3fc133449b1741b910a8011012cc252efd93a336f3",
+          "envName": "env",
+          "type": "Venv",
+          "displayName": "Python 3.9.4 64-bit ('env': venv)"
+        }
+      },
+      "expiry": 1624579072967
+    },
+    "python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "b762e429c57c515b4cb41dfed7dd62dac951602c19a28812220818d069bba1ad91cf791c27bd03c68fee415d9db0b9c86a453146db99a015ca435321da7e72c9"
+      },
+      "expiry": 1624577612145
+    },
+    "python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/cbpro/env",
+        "fileHash": "b762e429c57c515b4cb41dfed7dd62dac951602c19a28812220818d069bba1ad91cf791c27bd03c68fee415d9db0b9c86a453146db99a015ca435321da7e72c9"
+      },
+      "expiry": 1624577612235
+    },
+    "python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.4 64-bit ('.': venv)",
+        "hash": "b762e429c57c515b4cb41dfed7dd62dac951602c19a28812220818d069bba1ad91cf791c27bd03c68fee415d9db0b9c86a453146db99a015ca435321da7e72c9-e46c1f729eea9d1765d7443b47622aca"
+      },
+      "expiry": 1624577612238
+    },
+    "/Users/lucaseras/Developer/cbpro/env/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "b762e429c57c515b4cb41dfed7dd62dac951602c19a28812220818d069bba1ad91cf791c27bd03c68fee415d9db0b9c86a453146db99a015ca435321da7e72c9"
+      },
+      "expiry": 1624578166607
+    },
+    "/Users/lucaseras/Developer/cbpro/env/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.4 64-bit ('env': venv)",
+        "hash": "b762e429c57c515b4cb41dfed7dd62dac951602c19a28812220818d069bba1ad91cf791c27bd03c68fee415d9db0b9c86a453146db99a015ca435321da7e72c9-541c95359ec8a8e6b154c313a13cc2de"
+      },
+      "expiry": 1624578166680
+    },
+    "/Users/lucaseras/Developer/coinbase/env/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/coinbase/env/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/coinbase/env",
+        "fileHash": "4d4325d0e7701e93884409b64dc4b5fd05c06d4337adab0f6e1c8814337a5610a4245a99ea842ad3e458b3ea37a38196dd7524b5adec8db29e0db7008536e1ed"
+      },
+      "expiry": 1624580999037
+    },
+    "/Users/lucaseras/Developer/coinbase/env/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/coinbase/env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/coinbase/env",
+        "fileHash": "d1a30505c1b2f2072391c862f6e8a8a7b3771d7aa1a4860b8ea1f7972ce0dc4efd343d459c5f9b0309d9e4ddb7a4d3c63364b0393ea684733990e9f07950efd4"
+      },
+      "expiry": 1624580999039
+    },
+    "/Users/lucaseras/Developer/coinbase/env/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/coinbase/env/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/coinbase/env",
+        "fileHash": "88cf61b8dd4eb88f57be62467bbf659e75b08e39027ee4102f925415967004e361f1f65fbaa64b8cbd20815ca5d24bdf8b2f16b00563e57b2bc7ac33e357feca"
+      },
+      "expiry": 1624580999140
+    },
+    "/Users/lucaseras/Developer/coinbase/env/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.4 64-bit",
+        "hash": "d1a30505c1b2f2072391c862f6e8a8a7b3771d7aa1a4860b8ea1f7972ce0dc4efd343d459c5f9b0309d9e4ddb7a4d3c63364b0393ea684733990e9f07950efd4-d5219c205141fbac3aacace72dc4a300"
+      },
+      "expiry": 1624581402223
+    },
+    "/Users/lucaseras/Developer/coinbase/env/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "d1a30505c1b2f2072391c862f6e8a8a7b3771d7aa1a4860b8ea1f7972ce0dc4efd343d459c5f9b0309d9e4ddb7a4d3c63364b0393ea684733990e9f07950efd4",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/lucaseras/Developer/coinbase/env/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.4-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 4,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.4-final"
+          },
+          "sysPrefix": "/Users/lucaseras/Developer/coinbase/env",
+          "fileHash": "d1a30505c1b2f2072391c862f6e8a8a7b3771d7aa1a4860b8ea1f7972ce0dc4efd343d459c5f9b0309d9e4ddb7a4d3c63364b0393ea684733990e9f07950efd4",
+          "type": "Unknown",
+          "displayName": "Python 3.9.4 64-bit"
+        }
+      },
+      "expiry": 1624581402259
+    },
+    "/Users/lucaseras/Developer/coinbase/env/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "88cf61b8dd4eb88f57be62467bbf659e75b08e39027ee4102f925415967004e361f1f65fbaa64b8cbd20815ca5d24bdf8b2f16b00563e57b2bc7ac33e357feca"
+      },
+      "expiry": 1624581392576
     }
   },
   "coc-python|/Users/lucaseras/Developer/datastructures": {
@@ -1654,15 +1936,15 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.9.2-final",
+          "raw": "3.9.4-final",
           "major": 3,
           "minor": 9,
-          "patch": 2,
+          "patch": 4,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.9.2-final"
+          "version": "3.9.4-final"
         },
         "sysPrefix": "/Users/lucaseras/Developer/pastebin/env",
         "fileHash": "1f21614b7e5f7b689d680485580c8ab9969b8c15455ef58ef10ecb3aad1424c20c44cac6942212cb5f5152fec1fad388e82376111ae538a2a848713df5dfc71f",
@@ -1678,15 +1960,15 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.9.2-final",
+          "raw": "3.9.4-final",
           "major": 3,
           "minor": 9,
-          "patch": 2,
+          "patch": 4,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.9.2-final"
+          "version": "3.9.4-final"
         },
         "sysPrefix": "/Users/lucaseras/Developer/pastebin/env",
         "fileHash": "4b44a0a72cb2e09d069ae4640733569f9e8ccb90d74904d95ae1dd7b3d05102065c9f1851b9cf0da7574ea99102f0e8c5fc909b4de5e65efca48750e5613f82e",
@@ -1702,15 +1984,15 @@
             "includePrerelease": false
           },
           "loose": false,
-          "raw": "3.9.2-final",
+          "raw": "3.9.4-final",
           "major": 3,
           "minor": 9,
-          "patch": 2,
+          "patch": 4,
           "prerelease": [
             "final"
           ],
           "build": [],
-          "version": "3.9.2-final"
+          "version": "3.9.4-final"
         },
         "sysPrefix": "/Users/lucaseras/Developer/pastebin/env",
         "fileHash": "2f7eb5993ad5ce9f6406788acbe0053a1e25cb6e1b730cf0029480433128822a1d3da7738c1271be51339c4493be911c4ccb805d612b4f839b6f1103e01abe32",
@@ -1727,15 +2009,15 @@
           "includePrerelease": false
         },
         "loose": false,
-        "raw": "3.9.2-final",
+        "raw": "3.9.4-final",
         "major": 3,
         "minor": 9,
-        "patch": 2,
+        "patch": 4,
         "prerelease": [
           "final"
         ],
         "build": [],
-        "version": "3.9.2-final"
+        "version": "3.9.4-final"
       },
       "sysPrefix": "/Users/lucaseras/Developer/pastebin/env",
       "fileHash": "2f7eb5993ad5ce9f6406788acbe0053a1e25cb6e1b730cf0029480433128822a1d3da7738c1271be51339c4493be911c4ccb805d612b4f839b6f1103e01abe32",
@@ -1743,7 +2025,80 @@
       "type": "Venv"
     },
     "INTERPRETERS_CACHE_v3_PipEnvService": [],
-    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/pastebin/env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/pastebin/env",
+        "fileHash": "1f21614b7e5f7b689d680485580c8ab9969b8c15455ef58ef10ecb3aad1424c20c44cac6942212cb5f5152fec1fad388e82376111ae538a2a848713df5dfc71f",
+        "envName": "env",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/pastebin/env/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/pastebin/env",
+        "fileHash": "4b44a0a72cb2e09d069ae4640733569f9e8ccb90d74904d95ae1dd7b3d05102065c9f1851b9cf0da7574ea99102f0e8c5fc909b4de5e65efca48750e5613f82e",
+        "envName": "env",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/pastebin/env/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/pastebin/env",
+        "fileHash": "2f7eb5993ad5ce9f6406788acbe0053a1e25cb6e1b730cf0029480433128822a1d3da7738c1271be51339c4493be911c4ccb805d612b4f839b6f1103e01abe32",
+        "envName": "env",
+        "type": "Venv"
+      }
+    ]
   },
   "coc-python|/Users/lucaseras/Developer/COMP312/hw6": {
     "INTERPRETERS_CACHE_v3_PipEnvService:9286326a141a7dc8276f364732629055": [],
@@ -1909,5 +2264,381 @@
       }
     ],
     "SelectedPythonPath": "/Users/lucaseras/Developer/datastructures/venv/bin/python3.9"
+  },
+  "coc-python|/Users/lucaseras/Downloads": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:64a33d0ff9159953f97090dd1f793733": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:64a33d0ff9159953f97090dd1f793733": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lucaseras/Developer/next-react-project/nextjs-blog": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:bae45377658af527cf98a28644276a2f": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:bae45377658af527cf98a28644276a2f": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:843c1836b55240e64c4fda84c11c1aa6": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:843c1836b55240e64c4fda84c11c1aa6": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lucaseras/Developer/COMP312/final": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:b2f357fdb6f349339608c503b0f5641b": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:b2f357fdb6f349339608c503b0f5641b": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lucaseras/Downloads/333-hw4-submissions/Chelsea/Backend/music-rates": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:a6262519c3f7d0a91ec352df575bffa1": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:a6262519c3f7d0a91ec352df575bffa1": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lucaseras/Downloads/333-hw4-submissions/Chelsea/Backend/music-rates/myproject": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:2c9efc8913be7d830c87035757273b53": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:2c9efc8913be7d830c87035757273b53": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lucaseras/Downloads/333-hw4-submissions/logan/Backend/music-rates": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:06c295365514977bf0799d73f710e037": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:06c295365514977bf0799d73f710e037": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lucaseras/Developer": {
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:bae45377658af527cf98a28644276a2f": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:bae45377658af527cf98a28644276a2f": []
+  },
+  "coc-python|/Users/lucaseras/Developer/eras.page": {
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:959c0768c15cdb7d5c36c689f064f2b3": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:959c0768c15cdb7d5c36c689f064f2b3": []
+  },
+  "coc-python|/Users/lucaseras/Developer/pythonPractice": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:5fb4a23345003539e01b9b1419775816": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:5fb4a23345003539e01b9b1419775816": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lucaseras/Developer/cses": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:b8258bcb3ac2b9581c318677cb5389bf": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:b8258bcb3ac2b9581c318677cb5389bf": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lucaseras/Developer/codeforces": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:50222b729860dc5f7977ed808d614fe9": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:50222b729860dc5f7977ed808d614fe9": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lucaseras/Developer/cbpro/env/bin": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:6b270713e2da89017225c2452ee2a84a": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:6b270713e2da89017225c2452ee2a84a": [],
+    "SelectedPythonPath": "/Users/lucaseras/Developer/cbpro/env/bin/python3",
+    "autoSelectedWorkspacePythonInterpreter-/Users/lucaseras/Developer/cbpro/env/bin": {
+      "architecture": 3,
+      "path": "/Users/lucaseras/Developer/cbpro/env/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.4-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 4,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.4-final"
+      },
+      "sysPrefix": "/Users/lucaseras/Developer/cbpro/env",
+      "fileHash": "b762e429c57c515b4cb41dfed7dd62dac951602c19a28812220818d069bba1ad91cf791c27bd03c68fee415d9db0b9c86a453146db99a015ca435321da7e72c9",
+      "type": "VirtualEnv"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lucaseras/Developer/cbpro": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:8cf2ffeaf6ed5c9b452dacec089f9e77": [],
+    "SelectedPythonPath": "/Users/lucaseras/Developer/cbpro/env/bin/python",
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:8cf2ffeaf6ed5c9b452dacec089f9e77": [
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/cbpro/env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/cbpro/env",
+        "fileHash": "205833203ea7edc8d15454f7bb140bcf7af9281ae1303e3efeb0591f0f6472e6ea8fc7a4d0927eaf8d4caa3fc133449b1741b910a8011012cc252efd93a336f3",
+        "envName": "env",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/cbpro/env/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/cbpro/env",
+        "fileHash": "b762e429c57c515b4cb41dfed7dd62dac951602c19a28812220818d069bba1ad91cf791c27bd03c68fee415d9db0b9c86a453146db99a015ca435321da7e72c9",
+        "envName": "env",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/cbpro/env/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/cbpro/env",
+        "fileHash": "f48ed66cf1ab7f3ca58fe2e466ebec238356f64d0b9904d05afdc87cf617e1b75b2aba2dd12692334cf2509bc363c3e92b1e7f59df61e4701b664f5bb49ed94a",
+        "envName": "env",
+        "type": "Venv"
+      }
+    ],
+    "autoSelectedWorkspacePythonInterpreter-/Users/lucaseras/Developer/cbpro": {
+      "architecture": 3,
+      "path": "/Users/lucaseras/Developer/cbpro/env/bin/python3.9",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.4-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 4,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.4-final"
+      },
+      "sysPrefix": "/Users/lucaseras/Developer/cbpro/env",
+      "fileHash": "f48ed66cf1ab7f3ca58fe2e466ebec238356f64d0b9904d05afdc87cf617e1b75b2aba2dd12692334cf2509bc363c3e92b1e7f59df61e4701b664f5bb49ed94a",
+      "envName": "env",
+      "type": "Venv"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/cbpro/env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/cbpro/env",
+        "fileHash": "205833203ea7edc8d15454f7bb140bcf7af9281ae1303e3efeb0591f0f6472e6ea8fc7a4d0927eaf8d4caa3fc133449b1741b910a8011012cc252efd93a336f3",
+        "envName": "env",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/cbpro/env/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/cbpro/env",
+        "fileHash": "b762e429c57c515b4cb41dfed7dd62dac951602c19a28812220818d069bba1ad91cf791c27bd03c68fee415d9db0b9c86a453146db99a015ca435321da7e72c9",
+        "envName": "env",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/cbpro/env/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/cbpro/env",
+        "fileHash": "f48ed66cf1ab7f3ca58fe2e466ebec238356f64d0b9904d05afdc87cf617e1b75b2aba2dd12692334cf2509bc363c3e92b1e7f59df61e4701b664f5bb49ed94a",
+        "envName": "env",
+        "type": "Venv"
+      }
+    ]
+  },
+  "coc-python|/Users/lucaseras/Developer/coinbase": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:7fac603f715944eb3c791f4a708d2d35": [],
+    "SelectedPythonPath": "/Users/lucaseras/Developer/coinbase/env/bin/python3",
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:7fac603f715944eb3c791f4a708d2d35": [
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/coinbase/env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/coinbase/env",
+        "fileHash": "d1a30505c1b2f2072391c862f6e8a8a7b3771d7aa1a4860b8ea1f7972ce0dc4efd343d459c5f9b0309d9e4ddb7a4d3c63364b0393ea684733990e9f07950efd4",
+        "envName": "env",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/coinbase/env/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/coinbase/env",
+        "fileHash": "88cf61b8dd4eb88f57be62467bbf659e75b08e39027ee4102f925415967004e361f1f65fbaa64b8cbd20815ca5d24bdf8b2f16b00563e57b2bc7ac33e357feca",
+        "envName": "env",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lucaseras/Developer/coinbase/env/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.4-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.4-final"
+        },
+        "sysPrefix": "/Users/lucaseras/Developer/coinbase/env",
+        "fileHash": "4d4325d0e7701e93884409b64dc4b5fd05c06d4337adab0f6e1c8814337a5610a4245a99ea842ad3e458b3ea37a38196dd7524b5adec8db29e0db7008536e1ed",
+        "envName": "env",
+        "type": "Venv"
+      }
+    ],
+    "autoSelectedWorkspacePythonInterpreter-/Users/lucaseras/Developer/coinbase": {
+      "architecture": 3,
+      "path": "/Users/lucaseras/Developer/coinbase/env/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.4-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 4,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.4-final"
+      },
+      "sysPrefix": "/Users/lucaseras/Developer/coinbase/env",
+      "fileHash": "88cf61b8dd4eb88f57be62467bbf659e75b08e39027ee4102f925415967004e361f1f65fbaa64b8cbd20815ca5d24bdf8b2f16b00563e57b2bc7ac33e357feca",
+      "type": "VirtualEnv"
+    }
   }
 }

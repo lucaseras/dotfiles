@@ -1,6 +1,6 @@
 " Custom .vimrc
 " Creator: Lucas Eras Paiva
-" ================  Plugins ====================
+" ================  Plugins ===================
 call plug#begin('~/.local/share/nvim/plugged')
 "life-changing status bar at the bottom
 Plug 'vim-airline/vim-airline'
@@ -20,7 +20,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
 "better auto-pairing of parenthesis and whatnot
-Plug 'jiangmiao/auto-pairs'
+"Plug 'jiangmiao/auto-pairs'
 
 "a git wrapper so cool it should be illegal
 "do :G <command>
@@ -34,7 +34,7 @@ Plug 'preservim/nerdcommenter'
 "Plug 'xavierd/clang_complete'
 "
 "a Calendar plugin that I never use but that is just cool
-Plug 'itchyny/calendar.vim'
+"Plug 'itchyny/calendar.vim'
 
 "the great nerdtree, I have it as C-N
 Plug 'scrooloose/nerdtree'
@@ -49,16 +49,16 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': 
 Plug 'honza/vim-snippets'
 
 "just a random theme
-Plug 'NLKNguyen/papercolor-theme'
+"Plug 'NLKNguyen/papercolor-theme'
 
 "molokai theme
-Plug 'tomasr/molokai'
+"Plug 'tomasr/molokai'
 
 "dracula theme
-Plug 'dracula/vim'
+"Plug 'dracula/vim'
 
 "a different theme
-Plug 'sonph/onehalf', {'rtp': 'vim/'}
+"Plug 'sonph/onehalf', {'rtp': 'vim/'}
 
 "stuff for SML
 Plug 'jez/vim-better-sml'
@@ -105,13 +105,28 @@ Plug 'lervag/vimtex'
 
 " linting
 "Plug 'dense-analysis/ale'
+" jsx plugin
+"Plug 'mxw/vim-jsx'
 
+" styled
+"Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+
+" python syntax plugin
+Plug 'vim-python/python-syntax'
+
+" unimpaired (example: [e ]e)
+Plug 'tpope/vim-unimpaired'
 
 call plug#end()
 
 " ================ Main maps ====================
 " set <leader> to be <SPACE>
 let mapleader = " "
+
+" leader does pasting and deleting to global register
+nnoremap <leader>d "_d
+xnoremap <leader>d "_d
+xnoremap <leader>p "_dP
 
 " move between tabs with numbers
 noremap <leader>1 1gt
@@ -350,8 +365,10 @@ hi EasyMotionIncSearch ctermbg=green ctermfg=black
 " show the matching part of the pair fro []. {} and ()
 "set showmatch
 
-" enable all Python syntax highlighting features (bad idea)
-"let python_highlight_all=1
+" enable all Python syntax highlighting features 
+let python_highlight_all=1
+" remove the highlighting of spaces
+let python_highlight_space_errors=0
 
 " turn on true color (works only with iTerm)
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
@@ -424,6 +441,11 @@ set grepprg=rg\ --vimgrep\ --smart-case\ --follow
 " ignore file name when looking at content with fzf
 command! -bang -nargs=* Rg call fzf#vim#grep("rg --column --line-number --no-heading --color=always --smart-case ".shellescape(<q-args>), 1, {'options': '--delimiter : --nth 4..'}, <bang>0)
 
+command! -bang -nargs=* GGrep
+  \ call fzf#vim#grep(
+  \   'git grep --line-number -- '.shellescape(<q-args>), 0,
+  \   fzf#vim#with_preview({'dir': systemlist('git rev-parse --show-toplevel')[0]}), <bang>0)
+
 " ================ Snippet settings ===================
 " Trigger configuration. Has to be changed because of COC (unless I'm using
 " COCSnippets)
@@ -451,16 +473,22 @@ nmap <silent> gr <Plug>(coc-references)
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
+xmap <leader>a  <Plug>(coc-codeaction-selected)
+nmap <leader>a  <Plug>(coc-codeaction-selected)
 " Add (Neo)Vim's native statusline support.
 " NOTE: Please see `:h coc-status` for integrations with external plugins that
 " provide custom statusline: lightline.vim, vim-airline.
 set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 
+augroup coc_highlight
 autocmd FileType json syntax match Comment +\/\/.\+$+
 autocmd FileType python let b:coc_root_patterns = ['.git', '.env']
-nnoremap <leader>d "_d
-xnoremap <leader>d "_d
-xnoremap <leader>p "_dP
+augroup END
+
+
+" float navigation
+inoremap <nowait><expr> <C-f> coc#float#has_scroll() ? "\<c-r>=coc#float#scroll(1)\<cr>" : "\<Right>"
+inoremap <nowait><expr> <C-b> coc#float#has_scroll() ? "\<c-r>=coc#float#scroll(0)\<cr>" : "\<Left>"
 
 " ================ Markdown Configs ==================== 
 "set to 1, nvim will open the preview window after entering the markdown buffer
@@ -633,3 +661,14 @@ set foldlevel=2
 " ================ Linting settings ===================
 "let g:ale_python_pylint_options = '--load-plugins pylint_django'
 
+" ================ Emmet settings ===================
+"let g:user_emmet_settings = {
+  "'javascript' : {
+      "'extends' : 'jsx',
+  "},
+"}
+
+"let g:user_emmet_mode='a'
+"let g:user_emmet_leader_key=','
+" ================ nerdCommenter settings ===================
+autocmd FileType javascript.jsx setlocal commentstring={/*\ %s\ */}

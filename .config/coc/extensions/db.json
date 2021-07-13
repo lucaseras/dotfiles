@@ -5,13 +5,13 @@
       "disabled": true
     },
     "coc-eslint": {
-      "disabled": true
+      "disabled": false
     },
     "coc-tsserver": {
-      "disabled": true
+      "disabled": false
     },
     "coc-python": {
-      "disabled": false
+      "disabled": true
     }
   }
 }
